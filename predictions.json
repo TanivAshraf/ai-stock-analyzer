@@ -1,45 +1,61 @@
 {
-    "last_updated": "2025-07-13T05:22:36.133029Z",
+    "last_updated": "2025-07-13T06:12:44.445802Z",
     "predictions": [
         {
             "symbol": "AAPL",
             "current_price": 211.16,
-            "sentiment": "slightly bullish",
-            "reasoning": "Recent price action shows a slight upward trend, with the stock trading above its 20-day SMA.  While some negative news exists regarding broader market concerns and tariffs, positive sentiment around Apple's competitive edge and potential acquisitions outweighs these factors in the short term.",
-            "predicted_range": [
-                210.0,
-                214.0
-            ]
+            "price_change": -1.25,
+            "price_change_percent": -0.59,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price action shows a slight upward trend.  Positive news includes an outperform rating from Wedbush and articles highlighting Apple's competitive advantages.  While there is some negative global economic news, the specific positive news related to AAPL outweighs the general market concerns.",
+            "predicted_range": null,
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$210.00 - $214.00",
+                "todays_actual_price": "$211.16",
+                "hit": true
+            }
         },
         {
             "symbol": "GOOGL",
             "current_price": 180.19,
-            "sentiment": "slightly bullish",
-            "reasoning": "Recent news shows mixed sentiment, with some analysts reiterating buy recommendations while others are selling off shares.  However, the stock has shown a slight upward trend in the past week, and the 20-day SMA is below the current price, suggesting potential further growth.  The large volume on June 30th and July 1st might indicate increased investor interest.  However, the broader market uncertainty due to the tariff news could introduce volatility.",
-            "predicted_range": [
-                176.0,
-                182.0
-            ]
+            "price_change": 2.57,
+            "price_change_percent": 1.45,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price action shows a slight upward trend. Positive news sentiment outweighs negative. Several firms reiterate buy ratings and increase their holdings, suggesting confidence in future performance.  While some firms are selling shares, the overall news sentiment is positive.",
+            "predicted_range": null,
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$176.00 - $182.00",
+                "todays_actual_price": "$180.19",
+                "hit": true
+            }
         },
         {
             "symbol": "TSLA",
             "current_price": 313.51,
-            "sentiment": "slightly bearish",
-            "reasoning": "Recent price action shows volatility and a downward trend.  The 20-day SMA is above the current price, suggesting potential further downside. Negative news headlines regarding tariffs and potential market corrections could contribute to further price drops.",
-            "predicted_range": [
-                290.0,
-                315.0
-            ]
+            "price_change": 3.64,
+            "price_change_percent": 1.17,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price increases and positive news regarding Tesla's EV rebates and tax credits suggest a bullish trend.  The overall market volatility is a factor, but the specific news relating to TSLA is positive.",
+            "predicted_range": null,
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$290.00 - $315.00",
+                "todays_actual_price": "$313.51",
+                "hit": true
+            }
         },
         {
             "symbol": "MSFT",
             "current_price": 503.32,
-            "sentiment": "bullish",
-            "reasoning": "Recent price action shows a sustained upward trend, exceeding the 20-day SMA.  Positive news headlines regarding Microsoft's strong financial performance and potential for growth in AI contribute to a bullish outlook. High volume suggests significant investor interest.",
-            "predicted_range": [
-                500.0,
-                508.0
-            ]
+            "price_change": 1.84,
+            "price_change_percent": 0.37,
+            "sentiment": "Bullish",
+            "reasoning": "Recent news includes positive analyst predictions and discussion of strong financial performance (e.g., \"Microsoft Prints Tens of Billions in Free Cash Flow\").  While some news is unrelated to MSFT, the positive sentiment around MSFT outweighs the negative.",
+            "predicted_range": null,
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$500.00 - $508.00",
+                "todays_actual_price": "$503.32",
+                "hit": true
+            }
         }
     ]
 }
