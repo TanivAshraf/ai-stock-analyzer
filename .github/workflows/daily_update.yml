@@ -1,0 +1,50 @@
+# --- .github/workflows/daily_update.yml ---
+
+name: Generate Daily Stock Predictions
+
+on:
+  schedule:
+    # Runs at 22:00 UTC (e.g., 6 PM EST) every weekday
+    - cron: '0 22 * * 1-5'
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
+
+jobs:
+  build-and-commit:
+    # We will use the most stable runner environment
+    runs-on: ubuntu-22.04
+
+    # Grant permissions for the job to write back to the repository
+    permissions:
+      contents: 'write'
+
+    steps:
+      - name: Checkout Repository Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python, Install Dependencies, and Run Script
+        # This single step does everything
+        # It gets the API keys from the repository secrets you created
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+        run: |
+          # Setup Python environment
+          python -m venv venv
+          source venv/bin/activate
+          # Install libraries
+          pip install requests yfinance pandas
+          # Run the main prediction script
+          python generate_predictions.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add predictions.json
+          # Check if there are changes to commit before committing
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update daily stock predictions"
+            git push
+          fi
