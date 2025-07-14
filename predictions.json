@@ -1,61 +1,21 @@
 {
-    "last_updated": "2025-07-13T06:12:44.445802Z",
+    "last_updated": "2025-07-14T22:12:58.491663Z",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 211.16,
-            "price_change": -1.25,
-            "price_change_percent": -0.59,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a slight upward trend.  Positive news includes an outperform rating from Wedbush and articles highlighting Apple's competitive advantages.  While there is some negative global economic news, the specific positive news related to AAPL outweighs the general market concerns.",
-            "predicted_range": null,
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$210.00 - $214.00",
-                "todays_actual_price": "$211.16",
-                "hit": true
-            }
+            "error": "'NoneType' object is not subscriptable"
         },
         {
             "symbol": "GOOGL",
-            "current_price": 180.19,
-            "price_change": 2.57,
-            "price_change_percent": 1.45,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a slight upward trend. Positive news sentiment outweighs negative. Several firms reiterate buy ratings and increase their holdings, suggesting confidence in future performance.  While some firms are selling shares, the overall news sentiment is positive.",
-            "predicted_range": null,
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$176.00 - $182.00",
-                "todays_actual_price": "$180.19",
-                "hit": true
-            }
+            "error": "'NoneType' object is not subscriptable"
         },
         {
             "symbol": "TSLA",
-            "current_price": 313.51,
-            "price_change": 3.64,
-            "price_change_percent": 1.17,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price increases and positive news regarding Tesla's EV rebates and tax credits suggest a bullish trend.  The overall market volatility is a factor, but the specific news relating to TSLA is positive.",
-            "predicted_range": null,
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$290.00 - $315.00",
-                "todays_actual_price": "$313.51",
-                "hit": true
-            }
+            "error": "'NoneType' object is not subscriptable"
         },
         {
             "symbol": "MSFT",
-            "current_price": 503.32,
-            "price_change": 1.84,
-            "price_change_percent": 0.37,
-            "sentiment": "Bullish",
-            "reasoning": "Recent news includes positive analyst predictions and discussion of strong financial performance (e.g., \"Microsoft Prints Tens of Billions in Free Cash Flow\").  While some news is unrelated to MSFT, the positive sentiment around MSFT outweighs the negative.",
-            "predicted_range": null,
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$500.00 - $508.00",
-                "todays_actual_price": "$503.32",
-                "hit": true
-            }
+            "error": "'NoneType' object is not subscriptable"
         }
     ]
 }
