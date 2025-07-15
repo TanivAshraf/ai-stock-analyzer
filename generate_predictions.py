@@ -1,12 +1,10 @@
-# --- generate_predictions.py (Final Robust Version) ---
-
 import os
 import json
 import requests
 import pandas as pd
 import yfinance as yf
 from datetime import datetime
-import time
+import time # We will use the time library for delays
 
 # --- Configuration ---
 SYMBOLS = ['AAPL', 'GOOGL', 'TSLA', 'MSFT']
@@ -23,68 +21,69 @@ except KeyError:
 GEMINI_API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={GEMINI_API_KEY}"
 
 # --- Helper Functions ---
-# ... (get_stock_data_and_news remains the same) ...
 def get_stock_data_and_news(symbol):
-    # Fetching a slightly longer period to ensure we have enough data for SMA
     stock_data = yf.download(symbol, period="2mo", auto_adjust=True)
     if stock_data.empty or len(stock_data) < 2:
         raise ValueError(f"yfinance returned insufficient data for {symbol}")
-
     news_headlines = "No recent news found."
     if NEWS_API_KEY:
         try:
             news_url = f"https://newsapi.org/v2/everything?q={symbol}&language=en&sortBy=publishedAt&pageSize=10&apiKey={NEWS_API_KEY}"
-            response = requests.get(news_url)
-            response.raise_for_status()
-            articles = response.json().get('articles', [])
-            news_headlines = "\n".join([f"- {a['title']}" for a in articles])
-        except requests.RequestException as e:
-            news_headlines = f"Could not fetch news: {e}"
-            
+            response = requests.get(news_url); response.raise_for_status()
+            news_headlines = "\n".join([f"- {a['title']}" for a in response.json().get('articles', [])])
+        except requests.RequestException as e: news_headlines = f"Could not fetch news: {e}"
     return stock_data, news_headlines
 
-# --- UPGRADED AI ANALYSIS FUNCTION ---
+# --- UPGRADED, RESILIENT AI ANALYSIS FUNCTION ---
 def get_ai_analysis(symbol, historical_data, news_headlines):
-    """Generates a structured qualitative analysis and handles potential API errors."""
-    historical_data['SMA_20'] = historical_data['Close'].rolling(window=20).mean()
-    prompt_data = historical_data.tail(30).to_string()
-    
+    """
+    Generates structured analysis, retrying on failure and handling API instability.
+    """
     prompt = f"""
     Analyze the financial data for **{symbol}**. Respond with a single, clean JSON object with keys: "sentiment", "reasoning", "predicted_low", "predicted_high".
     - "sentiment": Must be "Bullish", "Bearish", or "Neutral".
     - Do not include any text, markdown, or explanations outside of the JSON object.
-    Historical Data: {prompt_data}
+    Historical Data: {historical_data.tail(30).to_string()}
     Recent News: {news_headlines}
     """
-    
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
-    try:
-        response = requests.post(GEMINI_API_URL, json=payload, timeout=30) # Add a timeout
-        response.raise_for_status()
+    # --- NEW: RETRY LOGIC ---
+    max_retries = 3
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(GEMINI_API_URL, json=payload, timeout=45)
+            response.raise_for_status()
+            
+            # --- NEW: DEFENSIVE PARSING ---
+            # Check for empty or malformed response before parsing JSON
+            if not response.text:
+                raise ValueError("Received empty response from API")
 
-        # --- NEW DEFENSIVE CODE BLOCK ---
-        # 1. Check if the response has the expected structure
-        candidates = response.json().get('candidates')
-        if not candidates or 'content' not in candidates[0] or 'parts' not in candidates[0]['content']:
-            raise ValueError("Invalid response structure from Gemini API")
+            json_response = response.json()
+            candidates = json_response.get('candidates')
+            if not candidates:
+                 # This can happen if the model refuses to answer due to safety filters
+                raise ValueError(f"API response blocked or empty. Reason: {json_response.get('promptFeedback', 'Unknown')}")
+            
+            text_content = candidates[0]['content']['parts'][0]['text']
+            clean_text = text_content.strip().replace('```json', '').replace('```', '')
+            
+            # If we successfully parse the JSON, return it and exit the loop
+            return json.loads(clean_text)
 
-        # 2. Extract and clean the text
-        text_content = candidates[0]['content']['parts'][0]['text']
-        clean_text = text_content.strip().replace('```json', '').replace('```', '')
+        except (requests.RequestException, json.JSONDecodeError, KeyError, IndexError, ValueError) as e:
+            print(f"Attempt {attempt + 1} for {symbol} failed: {e}")
+            if attempt < max_retries - 1:
+                # Wait before retrying (e.g., 2 seconds)
+                time.sleep(2) 
+            else:
+                # If all retries fail, raise the final error
+                raise
 
-        # 3. Try to parse the cleaned text as JSON
-        return json.loads(clean_text)
-
-    except requests.RequestException as e:
-        # Handle network errors
-        raise ValueError(f"API request failed: {e}")
-    except (json.JSONDecodeError, KeyError, IndexError, ValueError) as e:
-        # Handle all data structure and parsing errors
-        raise ValueError(f"Failed to parse valid JSON from Gemini API response: {e}")
-
-# --- Main Execution Logic (No changes needed, but included for completeness) ---
+# --- Main Execution Logic ---
 def main():
+    # ... (The logic to read the previous predictions file remains the same) ...
     previous_predictions = {}
     try:
         with open(OUTPUT_FILE, 'r') as f:
@@ -100,31 +99,29 @@ def main():
     for symbol in SYMBOLS:
         print(f"Processing {symbol}...")
         try:
+            # --- NEW: ADDED A DELAY BETWEEN PROCESSING EACH SYMBOL ---
+            if SYMBOLS.index(symbol) > 0:
+                print("Waiting 5 seconds to respect API rate limits...")
+                time.sleep(5) # Wait 5 seconds before processing the next stock
+
             stock_data, news = get_stock_data_and_news(symbol)
             current_price = float(stock_data['Close'].iloc[-1])
             previous_close = float(stock_data['Close'].iloc[-2])
-            price_change = current_price - previous_close
-            price_change_percent = (price_change / previous_close) * 100
-            
-            # Add a small delay between API calls to avoid rate limiting
-            time.sleep(1) 
             
             ai_prediction_for_tomorrow = get_ai_analysis(symbol, stock_data, news)
             
+            # --- The rest of the logic remains the same ---
+            price_change = current_price - previous_close
+            price_change_percent = (price_change / previous_close) * 100
+            
             accuracy_check = None
             if symbol in previous_predictions:
-                yesterdays_pred = previous_predictions[symbol]
-                # Check that the necessary keys exist before accessing them
                 if 'predicted_range' in yesterdays_pred and yesterdays_pred['predicted_range'] and len(yesterdays_pred['predicted_range']) == 2:
                     pred_low = yesterdays_pred['predicted_range'][0]
                     pred_high = yesterdays_pred['predicted_range'][1]
                     if pred_low is not None and pred_high is not None:
                         hit = pred_low <= current_price <= pred_high
-                        accuracy_check = {
-                            "yesterdays_predicted_range": f"${pred_low:.2f} - ${pred_high:.2f}",
-                            "todays_actual_price": f"${current_price:.2f}",
-                            "hit": hit
-                        }
+                        accuracy_check = {"yesterdays_predicted_range": f"${pred_low:.2f} - ${pred_high:.2f}", "todays_actual_price": f"${current_price:.2f}", "hit": hit}
             
             prediction_record = {
                 'symbol': symbol,
@@ -140,12 +137,12 @@ def main():
             print(f"Successfully processed {symbol}.")
 
         except Exception as e:
-            print(f"ERROR processing {symbol}: {e}")
+            print(f"CRITICAL ERROR processing {symbol}: {e}")
             todays_data['predictions'].append({'symbol': symbol, 'error': str(e)})
 
     with open(OUTPUT_FILE, 'w') as f:
         json.dump(todays_data, f, indent=4)
-    print(f"\nSuccessfully generated predictions and saved to {OUTPUT_FILE}")
+    print(f"\nProcess complete. Saved predictions to {OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()
