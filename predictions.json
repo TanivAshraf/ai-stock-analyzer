@@ -1,45 +1,21 @@
 {
-    "last_updated": "2025-07-15T03:59:20.644290Z",
+    "last_updated": "2025-07-15T22:13:17.665119Z",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 208.62,
-            "price_change": -2.54,
-            "price_change_percent": -1.2,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a generally upward trend, with higher highs and higher lows. Positive news regarding Apple's partnerships, new tools for developers, and strong earnings expectations contribute to a bullish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "name 'yesterdays_pred' is not defined"
         },
         {
             "symbol": "GOOGL",
-            "current_price": 181.56,
-            "price_change": 1.37,
-            "price_change_percent": 0.76,
-            "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend recently, with several days of increases and a high volume on June 30th and July 27th.  Positive news regarding institutional investment also contributes to the bullish sentiment.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "name 'yesterdays_pred' is not defined"
         },
         {
             "symbol": "TSLA",
-            "current_price": 316.9,
-            "price_change": 3.39,
-            "price_change_percent": 1.08,
-            "sentiment": "Bearish",
-            "reasoning": "JPMorgan's recommendation to short Tesla, coupled with recent price volatility and a downward trend, suggests a bearish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "name 'yesterdays_pred' is not defined"
         },
         {
             "symbol": "MSFT",
-            "current_price": 503.02,
-            "price_change": -0.3,
-            "price_change_percent": -0.06,
-            "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with consistent increases in closing prices and relatively high trading volumes.  Positive news around increased institutional investment further supports a bullish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "name 'yesterdays_pred' is not defined"
         }
     ]
 }
