@@ -1,10 +1,10 @@
-# --- .github/workflows/daily_update.yml ---
+# --- .github/workflows/daily_update.yml (FINAL VERSION with CSV Logging) ---
 
 name: Generate Daily Stock Predictions
 
 on:
   schedule:
-    # Runs at 22:00 UTC (e.g., 6 PM EST) every weekday
+    # This runs the workflow at 22:00 UTC every day from Monday to Friday.
     - cron: '0 22 * * 1-5'
   workflow_dispatch: # Allows you to run this manually from the Actions tab
 
@@ -40,11 +40,12 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add predictions.json
+          # Add both the JSON and the new CSV file to the commit
+          git add predictions.json history.csv
           # Check if there are changes to commit before committing
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Update daily stock predictions"
+            git commit -m "Update daily predictions and history log"
             git push
           fi
