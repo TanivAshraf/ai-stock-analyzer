@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-07-16T01:43:30.388904Z",
+    "last_updated": "2025-07-16T02:03:10.417307+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -7,7 +7,7 @@
             "price_change": 0.49,
             "price_change_percent": 0.23,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend in recent weeks, with significant increases in trading volume during periods of price growth.  While there have been some minor dips, the overall direction suggests positive investor sentiment.",
+            "reasoning": "The stock price shows an upward trend over the past month, with several days of significant gains and closing prices consistently above the lows. While there have been some dips, the overall trajectory suggests positive momentum.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -17,7 +17,7 @@
             "price_change": 0.44,
             "price_change_percent": 0.24,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a clear upward trend.  Positive news regarding AI investments and government contracts further supports a bullish outlook.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with increasing highs and closing prices.  Positive news, such as significant investments in AI and large contracts, further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -27,7 +27,7 @@
             "price_change": -6.12,
             "price_change_percent": -1.93,
             "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility, with both increases and decreases.  While some news sources express bullish sentiment (Cathie Wood's investment), others are neutral (Goldman Sachs' price target) or bearish (warnings from longtime bulls). The overall picture lacks a clear, dominant trend.",
+            "reasoning": "Recent news includes both positive (Cathie Wood buying TSLA shares, Tesla shareholder vote on xAI investment) and negative (Goldman Sachs issuing a neutral rating with a lower price target, serious court battle, warnings from longtime bull).  The price data shows volatility with no clear upward or downward trend over the given period. Therefore, a neutral sentiment is assigned.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -37,7 +37,7 @@
             "price_change": 2.8,
             "price_change_percent": 0.56,
             "sentiment": "Bullish",
-            "reasoning": "The stock price of MSFT has shown a consistent upward trend over the past month, with closing prices generally increasing and reaching new highs.  The recent news also includes positive developments such as partnerships and technological advancements, further supporting a bullish sentiment.",
+            "reasoning": "The stock price of MSFT has shown a consistent upward trend over the past month, with closing prices steadily increasing and reaching new highs.  The recent news includes positive developments like partnerships and technological advancements, further supporting a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
