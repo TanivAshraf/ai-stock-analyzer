@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-16T02:03:10.417307+00:00",
+    "last_updated": "2025-07-16T22:13:10.238600+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 209.11,
-            "price_change": 0.49,
-            "price_change_percent": 0.23,
+            "current_price": 210.16,
+            "price_change": 1.05,
+            "price_change_percent": 0.5,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with several days of significant gains and closing prices consistently above the lows. While there have been some dips, the overall trajectory suggests positive momentum.",
+            "reasoning": "Recent price action shows a steady upward trend, supported by positive news regarding Apple's deals and partnerships.  High volume on several days indicates significant trading activity.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 182.0,
-            "price_change": 0.44,
-            "price_change_percent": 0.24,
+            "current_price": 182.97,
+            "price_change": 0.97,
+            "price_change_percent": 0.53,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with increasing highs and closing prices.  Positive news, such as significant investments in AI and large contracts, further supports a bullish outlook.",
+            "reasoning": "The stock price has shown an overall upward trend in the provided historical data, with several instances of significant increases. Recent news also points to positive developments for Google, such as investments in AI and data center infrastructure, which suggests potential for future growth.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 310.78,
-            "price_change": -6.12,
-            "price_change_percent": -1.93,
+            "current_price": 321.67,
+            "price_change": 10.89,
+            "price_change_percent": 3.5,
             "sentiment": "Neutral",
-            "reasoning": "Recent news includes both positive (Cathie Wood buying TSLA shares, Tesla shareholder vote on xAI investment) and negative (Goldman Sachs issuing a neutral rating with a lower price target, serious court battle, warnings from longtime bull).  The price data shows volatility with no clear upward or downward trend over the given period. Therefore, a neutral sentiment is assigned.",
+            "reasoning": "Recent price action shows volatility, with both significant increases and decreases.  News is mixed, including positive developments (robotaxi application, potential xAI investment) and negative developments (executive departure). Overall, the data doesn't strongly suggest a bullish or bearish trend.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 505.82,
-            "price_change": 2.8,
-            "price_change_percent": 0.56,
+            "current_price": 505.62,
+            "price_change": -0.2,
+            "price_change_percent": -0.04,
             "sentiment": "Bullish",
-            "reasoning": "The stock price of MSFT has shown a consistent upward trend over the past month, with closing prices steadily increasing and reaching new highs.  The recent news includes positive developments like partnerships and technological advancements, further supporting a bullish outlook.",
+            "reasoning": "The stock price of MSFT has shown an upward trend in recent weeks, consistently closing higher than the previous day.  The recent news includes positive developments like acquisitions and investments in AI infrastructure by competitors, suggesting a robust environment for growth in the tech sector. While there is mention of elevated asset prices, the overall trend for MSFT suggests continued upward momentum.",
             "predicted_range": null,
             "accuracy_check": null
         }
