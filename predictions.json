@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-16T22:13:10.238600+00:00",
+    "last_updated": "2025-07-17T22:13:02.218183+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 210.16,
-            "price_change": 1.05,
-            "price_change_percent": 0.5,
+            "current_price": 210.02,
+            "price_change": -0.14,
+            "price_change_percent": -0.07,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a steady upward trend, supported by positive news regarding Apple's deals and partnerships.  High volume on several days indicates significant trading activity.",
+            "reasoning": "Recent price action shows a steady upward trend, with closing prices consistently above the lows.  The high volume on several days suggests strong investor interest. While there is some negative news regarding lawsuits, the overall trend and recent highs point towards a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 182.97,
-            "price_change": 0.97,
-            "price_change_percent": 0.53,
+            "current_price": 183.58,
+            "price_change": 0.61,
+            "price_change_percent": 0.33,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an overall upward trend in the provided historical data, with several instances of significant increases. Recent news also points to positive developments for Google, such as investments in AI and data center infrastructure, which suggests potential for future growth.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with several days of significant gains.  Increased trading volume during some of the price increases suggests strong investor interest. Positive news around AI and increased institutional investment further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 321.67,
-            "price_change": 10.89,
-            "price_change_percent": 3.5,
+            "current_price": 319.41,
+            "price_change": -2.26,
+            "price_change_percent": -0.7,
             "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility, with both significant increases and decreases.  News is mixed, including positive developments (robotaxi application, potential xAI investment) and negative developments (executive departure). Overall, the data doesn't strongly suggest a bullish or bearish trend.",
+            "reasoning": "The recent price action shows volatility with both upward and downward movements.  Recent news is mixed, with both positive and negative sentiments towards the company and the broader market.  Insufficient data to definitively predict a bullish or bearish trend.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 505.62,
-            "price_change": -0.2,
-            "price_change_percent": -0.04,
+            "current_price": 511.7,
+            "price_change": 6.08,
+            "price_change_percent": 1.2,
             "sentiment": "Bullish",
-            "reasoning": "The stock price of MSFT has shown an upward trend in recent weeks, consistently closing higher than the previous day.  The recent news includes positive developments like acquisitions and investments in AI infrastructure by competitors, suggesting a robust environment for growth in the tech sector. While there is mention of elevated asset prices, the overall trend for MSFT suggests continued upward momentum.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with closing prices consistently increasing.  Recent news includes positive analyst reports and price target increases, further supporting a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
