@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-17T22:13:02.218183+00:00",
+    "last_updated": "2025-07-18T22:12:51.056830+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 210.02,
-            "price_change": -0.14,
-            "price_change_percent": -0.07,
+            "current_price": 211.18,
+            "price_change": 1.16,
+            "price_change_percent": 0.55,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a steady upward trend, with closing prices consistently above the lows.  The high volume on several days suggests strong investor interest. While there is some negative news regarding lawsuits, the overall trend and recent highs point towards a bullish outlook.",
+            "reasoning": "The recent price action shows a consistent upward trend, with higher highs and higher lows.  Positive news surrounding the broader market and Apple's performance also contributes to a bullish outlook. While some selling activity is noted, buying pressure seems to outweigh it.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 183.58,
-            "price_change": 0.61,
-            "price_change_percent": 0.33,
+            "current_price": 185.06,
+            "price_change": 1.48,
+            "price_change_percent": 0.81,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with several days of significant gains.  Increased trading volume during some of the price increases suggests strong investor interest. Positive news around AI and increased institutional investment further supports a bullish outlook.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with several days of increases exceeding decreases. Positive news regarding Google's performance and increased investment from various firms further supports a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 319.41,
-            "price_change": -2.26,
-            "price_change_percent": -0.7,
-            "sentiment": "Neutral",
-            "reasoning": "The recent price action shows volatility with both upward and downward movements.  Recent news is mixed, with both positive and negative sentiments towards the company and the broader market.  Insufficient data to definitively predict a bullish or bearish trend.",
+            "current_price": 329.65,
+            "price_change": 10.24,
+            "price_change_percent": 3.21,
+            "sentiment": "Bearish",
+            "reasoning": "Recent news headlines express concerns about Tesla's stock performance, citing political distractions, profit concerns, and increased competition.  While the price has seen some upward movement recently, the overall trend and negative sentiment surrounding the company suggest a bearish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 511.7,
-            "price_change": 6.08,
-            "price_change_percent": 1.2,
+            "current_price": 510.05,
+            "price_change": -1.65,
+            "price_change_percent": -0.32,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with closing prices consistently increasing.  Recent news includes positive analyst reports and price target increases, further supporting a bullish outlook.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with multiple instances of closing prices exceeding the highs of previous days.  Positive news regarding AI and cloud services further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
