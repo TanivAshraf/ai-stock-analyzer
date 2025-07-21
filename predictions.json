@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-18T22:12:51.056830+00:00",
+    "last_updated": "2025-07-21T22:13:37.424098+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 211.18,
-            "price_change": 1.16,
-            "price_change_percent": 0.55,
+            "current_price": 212.48,
+            "price_change": 1.3,
+            "price_change_percent": 0.62,
             "sentiment": "Bullish",
-            "reasoning": "The recent price action shows a consistent upward trend, with higher highs and higher lows.  Positive news surrounding the broader market and Apple's performance also contributes to a bullish outlook. While some selling activity is noted, buying pressure seems to outweigh it.",
+            "reasoning": "Despite some negative news headlines, the recent price action shows a clear upward trend.  The stock has consistently climbed above its lows and shows increasing highs over the last few weeks, indicating strong buying pressure.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 185.06,
-            "price_change": 1.48,
-            "price_change_percent": 0.81,
+            "current_price": 190.1,
+            "price_change": 5.04,
+            "price_change_percent": 2.72,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with several days of increases exceeding decreases. Positive news regarding Google's performance and increased investment from various firms further supports a bullish sentiment.",
+            "reasoning": "Recent news highlights positive sentiment surrounding GOOGL, including AI-oriented investments and analysts' confidence.  The stock price shows an upward trend over the past few weeks.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 329.65,
-            "price_change": 10.24,
-            "price_change_percent": 3.21,
-            "sentiment": "Bearish",
-            "reasoning": "Recent news headlines express concerns about Tesla's stock performance, citing political distractions, profit concerns, and increased competition.  While the price has seen some upward movement recently, the overall trend and negative sentiment surrounding the company suggest a bearish outlook.",
+            "current_price": 328.49,
+            "price_change": -1.16,
+            "price_change_percent": -0.35,
+            "sentiment": "Bullish",
+            "reasoning": "The stock price has shown an upward trend in the recent historical data provided, with several instances of closing prices exceeding the previous highs.  Positive news sentiment around upcoming earnings reports further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 510.05,
-            "price_change": -1.65,
-            "price_change_percent": -0.32,
+            "current_price": 510.06,
+            "price_change": 0.01,
+            "price_change_percent": 0.0,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with multiple instances of closing prices exceeding the highs of previous days.  Positive news regarding AI and cloud services further supports a bullish outlook.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with several instances of price increases exceeding previous highs.  Positive news includes price target increases from financial institutions and continued institutional buying, outweighing negative news of reduced positions by some firms.  The overall trend suggests increasing investor confidence.",
             "predicted_range": null,
             "accuracy_check": null
         }
