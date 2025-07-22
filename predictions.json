@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-21T22:13:37.424098+00:00",
+    "last_updated": "2025-07-22T22:12:47.090280+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 212.48,
-            "price_change": 1.3,
-            "price_change_percent": 0.62,
+            "current_price": 214.4,
+            "price_change": 1.92,
+            "price_change_percent": 0.9,
             "sentiment": "Bullish",
-            "reasoning": "Despite some negative news headlines, the recent price action shows a clear upward trend.  The stock has consistently climbed above its lows and shows increasing highs over the last few weeks, indicating strong buying pressure.",
+            "reasoning": "The stock price shows an upward trend over the past month, with several days exceeding the previous high.  Recent news includes positive commentary from Jim Cramer and the release of new software updates, suggesting continued innovation and investor confidence.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 190.1,
-            "price_change": 5.04,
-            "price_change_percent": 2.72,
+            "current_price": 191.34,
+            "price_change": 1.24,
+            "price_change_percent": 0.65,
             "sentiment": "Bullish",
-            "reasoning": "Recent news highlights positive sentiment surrounding GOOGL, including AI-oriented investments and analysts' confidence.  The stock price shows an upward trend over the past few weeks.",
+            "reasoning": "Recent price increases, positive analyst sentiment, and increased price targets suggest a bullish trend.  The Q2 earnings report is anticipated to further influence the stock price.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 328.49,
-            "price_change": -1.16,
-            "price_change_percent": -0.35,
+            "current_price": 332.11,
+            "price_change": 3.62,
+            "price_change_percent": 1.1,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in the recent historical data provided, with several instances of closing prices exceeding the previous highs.  Positive news sentiment around upcoming earnings reports further supports a bullish outlook.",
+            "reasoning": "Recent price increases and positive news such as price target raises and expansion plans outweigh negative news like lawsuits and overvaluation warnings.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 510.06,
-            "price_change": 0.01,
-            "price_change_percent": 0.0,
+            "current_price": 505.27,
+            "price_change": -4.79,
+            "price_change_percent": -0.94,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with several instances of price increases exceeding previous highs.  Positive news includes price target increases from financial institutions and continued institutional buying, outweighing negative news of reduced positions by some firms.  The overall trend suggests increasing investor confidence.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with consistent increases in closing prices and high volume trading. Positive news about partnerships and record highs in the market contribute to this bullish sentiment, while negative news regarding cyberattacks seems to be mitigated by the company's quick response and patch releases.  Increased institutional holdings also point towards a positive outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
