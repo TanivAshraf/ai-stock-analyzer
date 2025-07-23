@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-22T22:12:47.090280+00:00",
+    "last_updated": "2025-07-23T22:13:19.705010+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 214.4,
-            "price_change": 1.92,
-            "price_change_percent": 0.9,
+            "current_price": 214.15,
+            "price_change": -0.25,
+            "price_change_percent": -0.12,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with several days exceeding the previous high.  Recent news includes positive commentary from Jim Cramer and the release of new software updates, suggesting continued innovation and investor confidence.",
+            "reasoning": "Recent price action shows a consistent upward trend, and while some analysts have expressed concerns, the overall analyst sentiment remains positive.  The increase in trading volume suggests strong investor interest.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 191.34,
-            "price_change": 1.24,
-            "price_change_percent": 0.65,
+            "current_price": 190.23,
+            "price_change": -1.11,
+            "price_change_percent": -0.58,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive analyst sentiment, and increased price targets suggest a bullish trend.  The Q2 earnings report is anticipated to further influence the stock price.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with several positive news articles mentioning potential earnings beats and increased price targets.  While there's some volatility, the overall trajectory suggests a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 332.11,
-            "price_change": 3.62,
-            "price_change_percent": 1.1,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price increases and positive news such as price target raises and expansion plans outweigh negative news like lawsuits and overvaluation warnings.",
+            "current_price": 332.56,
+            "price_change": 0.45,
+            "price_change_percent": 0.14,
+            "sentiment": "Bearish",
+            "reasoning": "Recent news indicates declining sales, potential unprofitability, and negative impacts from government policy changes and tariffs.  While there are some bullish counterpoints (price target boosts), the overall trend suggests a bearish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 505.27,
-            "price_change": -4.79,
-            "price_change_percent": -0.94,
+            "current_price": 505.87,
+            "price_change": 0.6,
+            "price_change_percent": 0.12,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with consistent increases in closing prices and high volume trading. Positive news about partnerships and record highs in the market contribute to this bullish sentiment, while negative news regarding cyberattacks seems to be mitigated by the company's quick response and patch releases.  Increased institutional holdings also point towards a positive outlook.",
+            "reasoning": "The stock price has shown an upward trend over the past month, with consistent increases in closing prices and high volume trading.  Positive news about Microsoft's Azure revenue growth and increased price targets from analysts further supports a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         }
