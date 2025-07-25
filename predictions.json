@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-07-24T22:13:23.742803+00:00",
+    "last_updated": "2025-07-25T22:12:44.102568+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 213.76,
-            "price_change": -0.39,
-            "price_change_percent": -0.18,
+            "current_price": 213.88,
+            "price_change": 0.12,
+            "price_change_percent": 0.06,
             "sentiment": "Bullish",
-            "reasoning": "The recent price action shows a consistent upward trend with higher highs and higher lows.  While there is some negative news regarding criticism of Apple's AI strategy and CEO, the overall trend is positive and recent earnings beats from other tech companies may positively influence investor sentiment.",
+            "reasoning": "The stock price has shown an upward trend over the past month, with consistent increases in closing prices and high volumes. Positive news regarding new software releases and the overall positive sentiment surrounding Apple's performance in the tech industry support this bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 192.17,
-            "price_change": 1.94,
-            "price_change_percent": 1.02,
+            "current_price": 193.18,
+            "price_change": 1.01,
+            "price_change_percent": 0.53,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, exceeding quarterly revenue estimates, and positive news coverage surrounding strong Q2 earnings and AI advancements contribute to a bullish sentiment.",
+            "reasoning": "Recent price increases, high trading volume, and positive news regarding AI investments and earnings are indicative of a bullish trend.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 305.3,
-            "price_change": -27.26,
-            "price_change_percent": -8.2,
+            "current_price": 316.06,
+            "price_change": 10.76,
+            "price_change_percent": 3.52,
             "sentiment": "Bearish",
-            "reasoning": "Recent news indicates a steep drop in quarterly revenue, missed earnings and revenue estimates, and a slowdown in electric car sales growth.  The price action shows a recent significant drop in share price.",
+            "reasoning": "Recent news indicates challenges for Tesla including a drop in the Tesla ETF, concerns about EV sales in California, uncertainty surrounding its future due to Elon Musk's comments, plunging auto revenue, and a general negative sentiment despite Musk's promises.  The recent price action shows a significant drop from highs and considerable volatility.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 510.88,
-            "price_change": 5.01,
-            "price_change_percent": 0.99,
+            "current_price": 513.71,
+            "price_change": 2.83,
+            "price_change_percent": 0.55,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend over the past month, with several days exceeding previous highs.  Positive analyst predictions target prices significantly above the current level, and recent news, while including some negative items, is largely dominated by positive sentiment surrounding AI and the broader market.",
+            "reasoning": "Recent price increases, high trading volume, and positive analyst sentiment regarding AI integration and Azure growth outweigh concerns from recent news about cybersecurity vulnerabilities.",
             "predicted_range": null,
             "accuracy_check": null
         }
