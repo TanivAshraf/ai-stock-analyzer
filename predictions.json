@@ -1,45 +1,21 @@
 {
-    "last_updated": "2025-07-28T22:13:20.053241+00:00",
+    "last_updated": "2025-07-29T22:13:16.418025+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 214.05,
-            "price_change": 0.17,
-            "price_change_percent": 0.08,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a steady upward trend.  Positive news regarding price targets and increased AI focus in the tech sector contribute to a bullish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         },
         {
             "symbol": "GOOGL",
-            "current_price": 192.58,
-            "price_change": -0.6,
-            "price_change_percent": -0.31,
-            "sentiment": "Bullish",
-            "reasoning": "Despite recent news of reduced free cash flow and margin concerns, the stock price has shown a significant upward trend over the past month, closing consistently above its opening price.  Positive analyst commentary and continued institutional investment suggest confidence in future growth.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         },
         {
             "symbol": "TSLA",
-            "current_price": 325.59,
-            "price_change": 9.53,
-            "price_change_percent": 3.02,
-            "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility with both significant gains and losses.  News sentiment is mixed, with both positive and negative outlooks expressed by analysts and media.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         },
         {
             "symbol": "MSFT",
-            "current_price": 512.5,
-            "price_change": -1.21,
-            "price_change_percent": -0.24,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive news regarding Microsoft's cloud and AI strategy, and a raised price target to $600.00 suggest a bullish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         }
     ]
 }
