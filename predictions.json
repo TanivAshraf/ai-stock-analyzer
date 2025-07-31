@@ -1,21 +1,45 @@
 {
-    "last_updated": "2025-07-30T22:13:22.867664+00:00",
+    "last_updated": "2025-07-31T22:13:15.478304+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 207.57,
+            "price_change": -1.48,
+            "price_change_percent": -0.71,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price action shows a steady upward trend, with closing prices consistently above the lows.  Positive news regarding strong Q3 earnings expectations and innovation-led dividend strength counterbalances concerns about potential iPhone price increases and decreased demand.  The overall market sentiment appears positive, with other tech giants like Microsoft and Meta showing strong performance.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 191.9,
+            "price_change": -4.63,
+            "price_change_percent": -2.36,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price increases and positive news, including increased price targets from Truist and discussions of Alphabet's position in the AI race, suggest a bullish outlook.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 308.27,
+            "price_change": -10.77,
+            "price_change_percent": -3.38,
+            "sentiment": "Bearish",
+            "reasoning": "Recent price action shows a significant drop from highs, coupled with negative news sentiment around the stock and broader market concerns.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 533.5,
+            "price_change": 20.26,
+            "price_change_percent": 3.95,
+            "sentiment": "Bullish",
+            "reasoning": "Strong recent performance, positive news regarding cloud and AI revenue growth, and exceeding earnings expectations all point towards a bullish outlook.",
+            "predicted_range": null,
+            "accuracy_check": null
         }
     ]
 }
