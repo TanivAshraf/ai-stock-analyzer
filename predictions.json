@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-05T22:14:09.128549+00:00",
+    "last_updated": "2025-08-06T22:13:51.606205+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 202.92,
-            "price_change": -0.43,
-            "price_change_percent": -0.21,
+            "current_price": 213.25,
+            "price_change": 10.33,
+            "price_change_percent": 5.09,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and positive news regarding strong growth and AI initiatives suggest a bullish trend.  Despite some negative news, the overall sentiment is positive.",
+            "reasoning": "Despite some negative news regarding lawsuits and tariffs, the recent price action shows a strong upward trend.  The stock has consistently risen above its lows over the last month, suggesting bullish momentum.  Positive news such as the upcoming iPhone 17 launch and long-term growth potential also contribute to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 194.67,
-            "price_change": -0.37,
-            "price_change_percent": -0.19,
+            "current_price": 196.09,
+            "price_change": 1.42,
+            "price_change_percent": 0.73,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, coupled with positive news including strong market rallies and positive analyst sentiment, suggest a bullish trend.",
+            "reasoning": "The stock price of GOOGL has shown an upward trend in the recent period presented.  Despite some minor fluctuations, the overall direction indicates growth.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 308.72,
-            "price_change": -0.54,
-            "price_change_percent": -0.17,
-            "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a mix of volatility but generally upward trending.  Positive news regarding Elon Musk's compensation package, despite concerns about falling sales, suggests potential investor confidence in the company's long-term prospects.",
+            "current_price": 319.91,
+            "price_change": 11.19,
+            "price_change_percent": 3.62,
+            "sentiment": "Neutral",
+            "reasoning": "Recent price action shows volatility with both significant increases and decreases.  Positive news (CEO stock purchase) is countered by negative news (lawsuits, tariff impacts).  The overall trend is unclear from the provided data.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 527.75,
-            "price_change": -7.89,
-            "price_change_percent": -1.47,
+            "current_price": 524.94,
+            "price_change": -2.81,
+            "price_change_percent": -0.53,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volume, coupled with positive overall market sentiment and strong performance by tech giants like Microsoft, suggest a bullish outlook.",
+            "reasoning": "Recent price increases, positive news regarding AI advancements and increased investor confidence, along with upward price projections from analysts like Morgan Stanley, suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }

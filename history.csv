@@ -55,3 +55,7 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2025-08-05,GOOGL,194.67,-0.37,-0.1897,Bullish,,,N/A,
 2025-08-05,TSLA,308.72,-0.54,-0.1746,Bullish,,,N/A,
 2025-08-05,MSFT,527.75,-7.89,-1.473,Bullish,,,N/A,
+2025-08-06,AAPL,213.25,10.33,5.0907,Bullish,,,N/A,
+2025-08-06,GOOGL,196.09,1.42,0.7294,Bullish,,,N/A,
+2025-08-06,TSLA,319.91,11.19,3.6246,Neutral,,,N/A,
+2025-08-06,MSFT,524.94,-2.81,-0.5324,Bullish,,,N/A,
