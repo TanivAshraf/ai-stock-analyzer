@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-08T22:12:31.534128+00:00",
+    "last_updated": "2025-08-11T22:12:29.993680+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 229.35,
-            "price_change": 9.32,
-            "price_change_percent": 4.24,
+            "current_price": 227.18,
+            "price_change": -2.17,
+            "price_change_percent": -0.95,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high volume trading suggest strong investor confidence. Positive news regarding US investments and potential tariff avoidance further supports a bullish outlook, despite some negative sentiment from analysts and shareholders.",
+            "reasoning": "Recent price increases, positive analyst ratings, and significant news regarding large buy-ins suggest a positive outlook for AAPL.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 201.42,
-            "price_change": 4.9,
-            "price_change_percent": 2.49,
+            "current_price": 201.0,
+            "price_change": -0.42,
+            "price_change_percent": -0.21,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows a clear upward trend over the past month, with consistent increases in closing prices and higher highs.  Increased trading volume accompanies this price appreciation, suggesting strong buying pressure. While some news mentions portfolio adjustments (buying and selling), the overall news sentiment is positive with multiple firms increasing or maintaining their holdings, which supports a bullish outlook.",
+            "reasoning": "The stock price of GOOGL has shown a consistent upward trend over the past month, with several days exceeding $190.  Positive news regarding AI initiatives and strong overall market sentiment for tech companies further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 329.65,
-            "price_change": 7.38,
-            "price_change_percent": 2.29,
+            "current_price": 339.03,
+            "price_change": 9.38,
+            "price_change_percent": 2.85,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a general upward trend, with several days closing above their opening prices. The recent news about a potential catalyst in September suggests a positive outlook, although the large stock pay package could be a factor.",
+            "reasoning": "Recent price action shows a strong upward trend, with several days of increases and high volume trading. Positive news regarding robotaxi permits and overall market strength in mega-cap tech contribute to a bullish outlook.  While there was a recent price drop, the overall trend and positive news suggest a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 522.04,
-            "price_change": 1.2,
-            "price_change_percent": 0.23,
+            "current_price": 521.77,
+            "price_change": -0.27,
+            "price_change_percent": -0.05,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volume, coupled with significant institutional investment, suggest a positive market sentiment.  While some selling activity is noted, the overall trend shows upward momentum.",
+            "reasoning": "Recent price increases, positive news about free cash flow and stock valuation, and continued strong performance in the tech sector suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
