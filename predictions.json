@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-11T22:12:29.993680+00:00",
+    "last_updated": "2025-08-12T22:12:15.684560+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 227.18,
-            "price_change": -2.17,
-            "price_change_percent": -0.95,
+            "current_price": 229.65,
+            "price_change": 2.47,
+            "price_change_percent": 1.09,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive analyst ratings, and significant news regarding large buy-ins suggest a positive outlook for AAPL.",
+            "reasoning": "The stock price shows a consistent upward trend over the past month, with significant volume increases during periods of price growth.  Positive news regarding Apple's investments and overall market position further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 201.0,
-            "price_change": -0.42,
-            "price_change_percent": -0.21,
+            "current_price": 203.34,
+            "price_change": 2.34,
+            "price_change_percent": 1.16,
             "sentiment": "Bullish",
-            "reasoning": "The stock price of GOOGL has shown a consistent upward trend over the past month, with several days exceeding $190.  Positive news regarding AI initiatives and strong overall market sentiment for tech companies further supports a bullish outlook.",
+            "reasoning": "The stock price shows an upward trend over the past month, with increasing highs and volumes.  Positive news regarding investments and partnerships also contributes to a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 339.03,
-            "price_change": 9.38,
-            "price_change_percent": 2.85,
+            "current_price": 340.84,
+            "price_change": 1.81,
+            "price_change_percent": 0.53,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a strong upward trend, with several days of increases and high volume trading. Positive news regarding robotaxi permits and overall market strength in mega-cap tech contribute to a bullish outlook.  While there was a recent price drop, the overall trend and positive news suggest a bullish sentiment.",
+            "reasoning": "Recent price action shows a significant upward trend, with several days closing at higher prices than the previous day.  While there is some volatility, the overall trend is positive. Positive news such as LG Energy supplying batteries and Tesla's bid to supply electricity to British households contribute to a bullish outlook.  The negative news regarding Dojo supercomputer plans is less impactful, given the overall positive momentum.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 521.77,
-            "price_change": -0.27,
-            "price_change_percent": -0.05,
+            "current_price": 529.24,
+            "price_change": 7.47,
+            "price_change_percent": 1.43,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive news about free cash flow and stock valuation, and continued strong performance in the tech sector suggest a bullish outlook.",
+            "reasoning": "The stock price shows a significant upward trend in the last few weeks, culminating in a large jump on July 31st and generally positive momentum since.  Positive news regarding GPT-5 integration and a long-term cloud strategy focused on quantum computing also contributes to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
