@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-12T22:12:15.684560+00:00",
+    "last_updated": "2025-08-13T22:13:04.222878+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 229.65,
-            "price_change": 2.47,
-            "price_change_percent": 1.09,
+            "current_price": 233.33,
+            "price_change": 3.68,
+            "price_change_percent": 1.6,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows a consistent upward trend over the past month, with significant volume increases during periods of price growth.  Positive news regarding Apple's investments and overall market position further supports a bullish outlook.",
+            "reasoning": "Recent price action shows a strong upward trend, with consistently higher highs and higher lows.  Positive news about big tech and a rally in the stock market contribute to a bullish outlook. While some negative news exists (e.g., Buffett's warning, Musk's threats), the overall positive market sentiment and strong performance of AAPL outweigh these concerns.  The significant volume increase in recent trading sessions also supports a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 203.34,
-            "price_change": 2.34,
-            "price_change_percent": 1.16,
+            "current_price": 201.96,
+            "price_change": -1.38,
+            "price_change_percent": -0.68,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with increasing highs and volumes.  Positive news regarding investments and partnerships also contributes to a bullish sentiment.",
+            "reasoning": "Recent price increases and high trading volume suggest strong investor confidence. Positive news related to AI and the broader tech market further supports a bullish outlook. While there is some negative news concerning share sales, the overall sentiment is positive.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 340.84,
-            "price_change": 1.81,
-            "price_change_percent": 0.53,
+            "current_price": 339.38,
+            "price_change": -1.46,
+            "price_change_percent": -0.43,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a significant upward trend, with several days closing at higher prices than the previous day.  While there is some volatility, the overall trend is positive. Positive news such as LG Energy supplying batteries and Tesla's bid to supply electricity to British households contribute to a bullish outlook.  The negative news regarding Dojo supercomputer plans is less impactful, given the overall positive momentum.",
+            "reasoning": "Recent price increases and positive news regarding Tesla's sales and stock awards contribute to a bullish sentiment.  The overall positive market sentiment and anticipation of a Fed rate cut also support this prediction.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 529.24,
-            "price_change": 7.47,
-            "price_change_percent": 1.43,
+            "current_price": 520.58,
+            "price_change": -8.66,
+            "price_change_percent": -1.64,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows a significant upward trend in the last few weeks, culminating in a large jump on July 31st and generally positive momentum since.  Positive news regarding GPT-5 integration and a long-term cloud strategy focused on quantum computing also contributes to a bullish outlook.",
+            "reasoning": "The stock price of MSFT has shown a generally upward trend over the past month, with several days of significant increases.  Recent news highlights positive sentiment towards Big Tech and increased investor optimism. While some institutional investors have reduced holdings, others have increased their stakes, suggesting confidence in the company's future prospects. The final price of $532.70 on August 13 is significantly higher than the opening price for the period. ",
             "predicted_range": null,
             "accuracy_check": null
         }
