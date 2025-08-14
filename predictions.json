@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-13T22:13:04.222878+00:00",
+    "last_updated": "2025-08-14T22:12:08.115689+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 233.33,
-            "price_change": 3.68,
-            "price_change_percent": 1.6,
+            "current_price": 232.78,
+            "price_change": -0.55,
+            "price_change_percent": -0.24,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a strong upward trend, with consistently higher highs and higher lows.  Positive news about big tech and a rally in the stock market contribute to a bullish outlook. While some negative news exists (e.g., Buffett's warning, Musk's threats), the overall positive market sentiment and strong performance of AAPL outweigh these concerns.  The significant volume increase in recent trading sessions also supports a bullish sentiment.",
+            "reasoning": "Recent price increases, high trading volume, and positive news sentiment suggest a bullish trend.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 201.96,
-            "price_change": -1.38,
-            "price_change_percent": -0.68,
+            "current_price": 202.94,
+            "price_change": 0.98,
+            "price_change_percent": 0.49,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volume suggest strong investor confidence. Positive news related to AI and the broader tech market further supports a bullish outlook. While there is some negative news concerning share sales, the overall sentiment is positive.",
+            "reasoning": "The stock price has shown an upward trend in recent weeks, with closing prices consistently above the opening prices.  Volume has also been relatively high, indicating strong trading activity. While there have been some negative news items (selling of shares by various firms), the recent price action suggests a positive market sentiment outweighing these concerns.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 339.38,
-            "price_change": -1.46,
-            "price_change_percent": -0.43,
+            "current_price": 335.58,
+            "price_change": -3.8,
+            "price_change_percent": -1.12,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and positive news regarding Tesla's sales and stock awards contribute to a bullish sentiment.  The overall positive market sentiment and anticipation of a Fed rate cut also support this prediction.",
+            "reasoning": "Recent price action shows a generally upward trend, with higher highs and higher lows.  Positive news around record highs in the broader market and significant inflows into related funds (ARKK) support a bullish outlook. While negative news exists (lawsuits), the overall momentum suggests a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 520.58,
-            "price_change": -8.66,
-            "price_change_percent": -1.64,
+            "current_price": 522.48,
+            "price_change": 1.9,
+            "price_change_percent": 0.36,
             "sentiment": "Bullish",
-            "reasoning": "The stock price of MSFT has shown a generally upward trend over the past month, with several days of significant increases.  Recent news highlights positive sentiment towards Big Tech and increased investor optimism. While some institutional investors have reduced holdings, others have increased their stakes, suggesting confidence in the company's future prospects. The final price of $532.70 on August 13 is significantly higher than the opening price for the period. ",
+            "reasoning": "Recent price action shows a strong upward trend, culminating in a significant jump on July 31st and sustained higher prices since then.  Positive news regarding the broader market (record highs, Fed rate cut bets) further supports a bullish outlook. Although some news indicates reduced positions by some investors, the overall trend and market sentiment suggest a positive outlook for MSFT.",
             "predicted_range": null,
             "accuracy_check": null
         }
