@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-18T22:11:57.553661+00:00",
+    "last_updated": "2025-08-19T22:12:11.501694+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 230.89,
-            "price_change": -0.7,
-            "price_change_percent": -0.3,
+            "current_price": 230.56,
+            "price_change": -0.33,
+            "price_change_percent": -0.14,
             "sentiment": "Bullish",
-            "reasoning": "Recent news indicates strong bullish sentiment on Wall Street, driven by AI upside and resilient earnings.  The stock price shows a consistent upward trend over the past month, with significant volume increases on some days, suggesting strong buying pressure. Despite some negative news (lawsuits, bearish predictions), the overall trend and positive news outweigh the negative.",
+            "reasoning": "Recent price action shows a consistent upward trend, with closing prices generally higher than opening prices.  High volume trading on several days suggests strong investor interest. Positive news articles from Morgan Stanley and others support this bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 203.5,
-            "price_change": -0.4,
-            "price_change_percent": -0.2,
+            "current_price": 201.57,
+            "price_change": -1.93,
+            "price_change_percent": -0.95,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with closing prices steadily increasing.  Positive news sentiment, including bullish analyst reports and significant investments in related tech sectors, further supports a bullish outlook.",
+            "reasoning": "Recent price increases and high trading volume suggest strong investor interest.  Positive news regarding Google's investments in other companies further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 335.16,
-            "price_change": 4.6,
-            "price_change_percent": 1.39,
+            "current_price": 329.31,
+            "price_change": -5.85,
+            "price_change_percent": -1.75,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with several days closing at higher prices than the previous day.  Despite some negative news (lawsuits), positive news (investment in the company) outweighs the negative sentiment.  Recent highs surpass recent lows, indicating a positive momentum.",
+            "reasoning": "The stock price has shown an overall upward trend in the provided data, with several instances of higher highs and higher lows.  The recent price action suggests continued momentum.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 517.1,
-            "price_change": -3.07,
-            "price_change_percent": -0.59,
+            "current_price": 509.77,
+            "price_change": -7.33,
+            "price_change_percent": -1.42,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows a generally upward trend over the given period, with several instances of significant increases.  Positive news sentiment from analyst ratings and investment activity further supports a bullish outlook.",
+            "reasoning": "The stock price shows an upward trend over the past month, with several days of significant gains.  Recent news includes positive reports about AI and the software industry, suggesting strong growth potential. While some news mentions decreased holdings by certain investment firms, the overall trend and positive news outweigh these negative signals.",
             "predicted_range": null,
             "accuracy_check": null
         }
