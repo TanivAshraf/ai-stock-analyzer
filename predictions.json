@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-19T22:12:11.501694+00:00",
+    "last_updated": "2025-08-20T22:10:50.207537+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 230.56,
-            "price_change": -0.33,
-            "price_change_percent": -0.14,
+            "current_price": 226.01,
+            "price_change": -4.55,
+            "price_change_percent": -1.97,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a consistent upward trend, with closing prices generally higher than opening prices.  High volume trading on several days suggests strong investor interest. Positive news articles from Morgan Stanley and others support this bullish sentiment.",
+            "reasoning": "The stock price has shown an overall upward trend in the recent period, with significant increases in volume towards the end of the period. Despite some recent negative news, the overall positive momentum and high trading volume suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 201.57,
-            "price_change": -1.93,
-            "price_change_percent": -0.95,
+            "current_price": 199.32,
+            "price_change": -2.25,
+            "price_change_percent": -1.12,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volume suggest strong investor interest.  Positive news regarding Google's investments in other companies further supports a bullish outlook.",
+            "reasoning": "The stock price of GOOGL has shown an upward trend in the provided historical data, with consistent increases in closing prices over most of the period.  Recent news also includes positive developments such as Google's increased stake in a bitcoin miner and positive outlooks for Google products. While there is some negative sentiment in the news about the broader market and AI stocks, the positive momentum in GOOGL's price outweighs these concerns.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 329.31,
-            "price_change": -5.85,
-            "price_change_percent": -1.75,
-            "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an overall upward trend in the provided data, with several instances of higher highs and higher lows.  The recent price action suggests continued momentum.",
+            "current_price": 323.9,
+            "price_change": -5.41,
+            "price_change_percent": -1.64,
+            "sentiment": "Neutral",
+            "reasoning": "Recent price action shows volatility, with both significant increases and decreases.  Negative news regarding lawsuits and market uncertainty are countered by positive news about potential sales increases and a strong upcoming quarter. The overall trend is not definitively bullish or bearish.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 509.77,
-            "price_change": -7.33,
-            "price_change_percent": -1.42,
+            "current_price": 505.72,
+            "price_change": -4.05,
+            "price_change_percent": -0.79,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with several days of significant gains.  Recent news includes positive reports about AI and the software industry, suggesting strong growth potential. While some news mentions decreased holdings by certain investment firms, the overall trend and positive news outweigh these negative signals.",
+            "reasoning": "While there's been some recent selling pressure, the overall trend shows a steady increase in price, with a significant jump on July 31st.  The stock has largely recovered from any minor dips, indicating underlying strength.",
             "predicted_range": null,
             "accuracy_check": null
         }
