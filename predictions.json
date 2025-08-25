@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-08-22T22:11:15.024437+00:00",
+    "last_updated": "2025-08-25T22:12:07.984376+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 227.76,
-            "price_change": 2.86,
-            "price_change_percent": 1.27,
+            "current_price": 227.16,
+            "price_change": -0.6,
+            "price_change_percent": -0.26,
             "sentiment": "Bullish",
-            "reasoning": "AAPL's price has shown an upward trend in recent weeks, with closing prices consistently above the lows.  The recent increase in volume suggests strong investor interest. Although there have been some recent dips, the overall trend is positive, and the recent high exceeds the previous highs for that period. ",
+            "reasoning": "Recent price action shows a strong upward trend, with consistently higher highs and higher lows.  Despite a minor dip around August 1st, the stock price quickly recovered and continued its upward trajectory.  High trading volume during periods of price increase suggests strong buying pressure. Positive news regarding new Apple products and AI services also contributes to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 206.09,
-            "price_change": 6.34,
-            "price_change_percent": 3.17,
+            "current_price": 208.49,
+            "price_change": 2.4,
+            "price_change_percent": 1.16,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a generally upward trend in recent weeks, with several days of significant increases and closing prices consistently above the opening prices.  Positive news, including a bullish outlook from Jim Cramer and a high price target from brokerages, further supports a bullish sentiment. While some negative news exists (AI bubble concerns, potential antitrust issues), the overall trend suggests a bullish outlook.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days of significant gains.  Recent high volume trading days and closing prices above recent highs suggest strong buying pressure. While there are some bearish news items (CEO stock sale, anti-competitive penalties), the overall price action is strongly positive, outweighing the negative news.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 340.01,
-            "price_change": 19.9,
-            "price_change_percent": 6.22,
-            "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility with both significant increases and decreases.  News includes both positive (AI model adoption) and negative (lawsuits, bearish market sentiment) factors, resulting in an overall neutral outlook.",
+            "current_price": 346.6,
+            "price_change": 6.59,
+            "price_change_percent": 1.94,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price action shows a steady increase from a low around 300 to highs above 340.  Positive news surrounding increased investment and AI developments further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 507.23,
-            "price_change": 2.99,
-            "price_change_percent": 0.59,
+            "current_price": 504.26,
+            "price_change": -2.97,
+            "price_change_percent": -0.59,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a steady increase, with the stock price surpassing previous highs.  While there is some negative news (AI bubble concerns, lawsuits), the positive momentum and overall upward trend outweigh these factors.",
+            "reasoning": "Recent price increases, coupled with positive news (new investments, positive AI sentiment) suggest a bullish trend.",
             "predicted_range": null,
             "accuracy_check": null
         }
