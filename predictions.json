@@ -1,31 +1,43 @@
 {
-    "last_updated": "2025-08-27T22:11:27.142658+00:00",
+    "last_updated": "2025-08-28T22:11:45.178650+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 230.49,
-            "price_change": 1.18,
-            "price_change_percent": 0.51,
+            "current_price": 232.56,
+            "price_change": 2.07,
+            "price_change_percent": 0.9,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in recent weeks, with significant volume increases accompanying the price rises. While there are some bearish news items (concerns about Siri), the overall trend and recent positive news regarding Apple's stock rebound suggest a bullish outlook.",
+            "reasoning": "AAPL stock price has shown an upward trend in the recent period, with closing prices consistently increasing from August 1st onwards despite some daily fluctuations.  The significant volume increase in trading over this period also indicates strong investor interest. While some minor dips are observed, the overall trend is positive.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 211.64,
+            "price_change": 4.16,
+            "price_change_percent": 2.01,
+            "sentiment": "Bullish",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days showing significant increases in volume and price.  Positive news, including analyst upgrades and reports highlighting the company's involvement in AI, further supports a bullish outlook.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 345.98,
+            "price_change": -3.62,
+            "price_change_percent": -1.04,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price increases and positive news regarding AI and potential for growth outweigh negative news.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 506.74,
-            "price_change": 4.7,
-            "price_change_percent": 0.94,
+            "current_price": 509.64,
+            "price_change": 2.9,
+            "price_change_percent": 0.57,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a significant increase in price from around 505 to over 550 in early August. Positive news regarding AI investments and integration suggests continued growth potential.",
+            "reasoning": "Recent price action shows an upward trend, and positive news articles support a bullish outlook.  While some articles express concern about broader market conditions, the overall sentiment leans positive.",
             "predicted_range": null,
             "accuracy_check": null
         }
