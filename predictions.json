@@ -1,5 +1,5 @@
 {
-    "last_updated": "2025-08-29T22:11:29.536833+00:00",
+    "last_updated": "2025-09-01T22:11:12.301782+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -7,7 +7,7 @@
             "price_change": -0.42,
             "price_change_percent": -0.18,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volume suggest strong investor confidence.  Positive analyst ratings (Evercore ISI's Outperform rating with a $250 price target) further support a bullish outlook. Although there are some negative global economic factors mentioned in the news, the overall trend for AAPL is upward.",
+            "reasoning": "The stock price has shown an upward trend in the recent period, with closing prices consistently increasing.  High trading volumes suggest significant investor activity.  Despite some news of institutional investors selling shares, the overall trend points towards bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -17,7 +17,7 @@
             "price_change": 1.27,
             "price_change_percent": 0.6,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend recently, and a price target of $225 has been set by analysts. While there are concerns about a potential slowdown in the tech sector, the recent positive news and upward trend suggest a bullish outlook.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days exceeding the previous high.  Recent news highlights positive developments, such as Alphabet's AI/cloud expansion and positive reviews of its Pixel 10 smartphone.  Volume is generally high, suggesting active trading and investor interest.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -26,8 +26,8 @@
             "current_price": 333.87,
             "price_change": -12.11,
             "price_change_percent": -3.5,
-            "sentiment": "Bearish",
-            "reasoning": "Recent news includes reports of Tesla's declining sales in Europe, lawsuits, and losses to competitors like BYD and Volkswagen.  While some news is positive (SpaceX predictions), the overall negative sentiment surrounding sales and legal issues outweighs the positives.",
+            "sentiment": "Bullish",
+            "reasoning": "Despite some negative news and volatility, the stock price shows an overall upward trend in recent weeks, closing higher than the previous day's closing price most of the time, indicating buying pressure.",
             "predicted_range": null,
             "accuracy_check": null
         },
@@ -37,7 +37,7 @@
             "price_change": -2.95,
             "price_change_percent": -0.58,
             "sentiment": "Bullish",
-            "reasoning": "Despite some recent volatility and negative news regarding potential economic slowdowns, MSFT's stock price has shown a generally upward trend over the past month.  The significant volume on July 31st suggests strong buying pressure, and the stock price has largely recovered from subsequent dips. Positive news around AI and quantum computing also contributes to a bullish outlook.",
+            "reasoning": "Despite some recent price volatility and negative news regarding employee overwork, the stock price has shown a generally upward trend over the past month.  Positive news includes multiple increases in stock positions by various financial institutions, suggesting continued confidence in the company's future performance.",
             "predicted_range": null,
             "accuracy_check": null
         }
