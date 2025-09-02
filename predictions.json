@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-01T22:11:12.301782+00:00",
+    "last_updated": "2025-09-02T22:10:27.836884+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 232.14,
-            "price_change": -0.42,
-            "price_change_percent": -0.18,
+            "current_price": 229.72,
+            "price_change": -2.42,
+            "price_change_percent": -1.04,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in the recent period, with closing prices consistently increasing.  High trading volumes suggest significant investor activity.  Despite some news of institutional investors selling shares, the overall trend points towards bullish sentiment.",
+            "reasoning": "The stock price shows an upward trend in recent weeks, with consistent increases and high trading volume, suggesting strong investor confidence.  Positive news articles about Apple's AI investments and large stock positions held by institutional investors further support a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 212.91,
-            "price_change": 1.27,
-            "price_change_percent": 0.6,
+            "current_price": 211.35,
+            "price_change": -1.56,
+            "price_change_percent": -0.73,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days exceeding the previous high.  Recent news highlights positive developments, such as Alphabet's AI/cloud expansion and positive reviews of its Pixel 10 smartphone.  Volume is generally high, suggesting active trading and investor interest.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with closing prices consistently higher than the previous day's closing price for most of the period.  Recent news highlights positive developments such as strong Q2 results and expansion in AI/cloud, suggesting continued growth potential.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 333.87,
-            "price_change": -12.11,
-            "price_change_percent": -3.5,
-            "sentiment": "Bullish",
-            "reasoning": "Despite some negative news and volatility, the stock price shows an overall upward trend in recent weeks, closing higher than the previous day's closing price most of the time, indicating buying pressure.",
+            "current_price": 329.36,
+            "price_change": -4.51,
+            "price_change_percent": -1.35,
+            "sentiment": "Bearish",
+            "reasoning": "Recent news indicates declining sales in key European markets and increased competition.  While the stock price has shown some upward movement recently, the overall trend suggests bearish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 506.69,
-            "price_change": -2.95,
-            "price_change_percent": -0.58,
+            "current_price": 505.12,
+            "price_change": -1.57,
+            "price_change_percent": -0.31,
             "sentiment": "Bullish",
-            "reasoning": "Despite some recent price volatility and negative news regarding employee overwork, the stock price has shown a generally upward trend over the past month.  Positive news includes multiple increases in stock positions by various financial institutions, suggesting continued confidence in the company's future performance.",
+            "reasoning": "Recent price action shows a general upward trend despite some daily fluctuations.  Increased volume on certain days suggests strong trading activity. Positive news regarding Microsoft's position in various investment portfolios and ongoing developments in quantum computing and other sectors also contribute to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
