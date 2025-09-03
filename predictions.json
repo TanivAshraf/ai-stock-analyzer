@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-02T22:10:27.836884+00:00",
+    "last_updated": "2025-09-03T22:10:36.835431+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 229.72,
-            "price_change": -2.42,
-            "price_change_percent": -1.04,
+            "current_price": 238.47,
+            "price_change": 8.75,
+            "price_change_percent": 3.81,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend in recent weeks, with consistent increases and high trading volume, suggesting strong investor confidence.  Positive news articles about Apple's AI investments and large stock positions held by institutional investors further support a bullish outlook.",
+            "reasoning": "Recent price action shows a strong upward trend, with consistently higher highs and higher lows over the past few weeks.  High volume on several up days suggests strong buying pressure. Positive news related to competitors (Alphabet, Microsoft) and Apple's own product updates could also contribute to investor optimism.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 211.35,
-            "price_change": -1.56,
-            "price_change_percent": -0.73,
+            "current_price": 230.66,
+            "price_change": 19.31,
+            "price_change_percent": 9.14,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with closing prices consistently higher than the previous day's closing price for most of the period.  Recent news highlights positive developments such as strong Q2 results and expansion in AI/cloud, suggesting continued growth potential.",
+            "reasoning": "Recent positive news regarding antitrust rulings and a strong upward trend in the stock price over the past month suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 329.36,
-            "price_change": -4.51,
-            "price_change_percent": -1.35,
+            "current_price": 334.09,
+            "price_change": 4.73,
+            "price_change_percent": 1.44,
             "sentiment": "Bearish",
-            "reasoning": "Recent news indicates declining sales in key European markets and increased competition.  While the stock price has shown some upward movement recently, the overall trend suggests bearish sentiment.",
+            "reasoning": "Negative news sentiment surrounding lawsuits, declining market share, and production challenges outweighs positive news and price increases in recent days.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 505.12,
-            "price_change": -1.57,
-            "price_change_percent": -0.31,
+            "current_price": 505.35,
+            "price_change": 0.23,
+            "price_change_percent": 0.05,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a general upward trend despite some daily fluctuations.  Increased volume on certain days suggests strong trading activity. Positive news regarding Microsoft's position in various investment portfolios and ongoing developments in quantum computing and other sectors also contribute to a bullish outlook.",
+            "reasoning": "Recent price increases and high trading volume suggest positive market sentiment.  While there are some negative news items (Microsoft's involvement in the Israel military controversy), the overall news is mostly positive, especially the Google antitrust ruling, which could benefit Microsoft indirectly.",
             "predicted_range": null,
             "accuracy_check": null
         }
