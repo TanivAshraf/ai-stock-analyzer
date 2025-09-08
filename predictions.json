@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-05T22:11:09.415467+00:00",
+    "last_updated": "2025-09-08T22:11:52.210899+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 239.69,
-            "price_change": -0.09,
-            "price_change_percent": -0.04,
+            "current_price": 237.88,
+            "price_change": -1.81,
+            "price_change_percent": -0.76,
             "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the last month, with several days exceeding the previous highs.  The recent news, while mixed, includes positive developments regarding Apple's product line and overall market sentiment remains relatively strong.",
+            "reasoning": "The stock price has shown an upward trend in the past month, with several days of significant increases in volume and closing prices.  Positive news regarding new product launches and AI integration also contributes to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 235.0,
-            "price_change": 2.7,
-            "price_change_percent": 1.16,
+            "current_price": 234.04,
+            "price_change": -0.96,
+            "price_change_percent": -0.41,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive news sentiment (favorable antitrust ruling, price target increase), and generally upward trend suggest a bullish outlook.",
+            "reasoning": "Recent price increases, positive analyst forecasts (price target raised to $260), and positive news mentions suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 350.84,
-            "price_change": 12.31,
-            "price_change_percent": 3.64,
+            "current_price": 346.4,
+            "price_change": -4.44,
+            "price_change_percent": -1.27,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend over the past month, with several instances of significant increases in price and volume.  The recent high surpasses previous highs, indicating strong buying pressure.",
+            "reasoning": "Recent news indicates strong sales growth in the UK and potential for significant future valuation.  While there are some negative news items (lawsuits, concerns about Elon Musk's influence), the overwhelmingly positive news regarding sales and potential valuation outweighs the negative. The stock price shows an upward trend in recent weeks.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 495.0,
-            "price_change": -12.97,
-            "price_change_percent": -2.55,
-            "sentiment": "Bullish",
-            "reasoning": "Despite recent price fluctuations and some negative news regarding reduced Chinese access, the overall trend shows a steady increase in price over the past month, with several days exceeding $530. Positive news surrounding cloud deals and continued investor interest suggests a bullish outlook.",
+            "current_price": 498.2,
+            "price_change": 3.2,
+            "price_change_percent": 0.65,
+            "sentiment": "Bearish",
+            "reasoning": "Recent price action shows a downward trend, coupled with news of insider selling and concerns about economic slowdown.",
             "predicted_range": null,
             "accuracy_check": null
         }
