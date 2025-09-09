@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-08T22:11:52.210899+00:00",
+    "last_updated": "2025-09-09T22:10:09.837644+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 237.88,
-            "price_change": -1.81,
-            "price_change_percent": -0.76,
+            "current_price": 234.35,
+            "price_change": -3.53,
+            "price_change_percent": -1.48,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an upward trend in the past month, with several days of significant increases in volume and closing prices.  Positive news regarding new product launches and AI integration also contributes to a bullish outlook.",
+            "reasoning": "The stock price has shown a generally upward trend in the provided data, with several instances of significant increases in price and volume.  Recent news mentions positive developments and significant institutional investment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 234.04,
-            "price_change": -0.96,
-            "price_change_percent": -0.41,
+            "current_price": 239.63,
+            "price_change": 5.59,
+            "price_change_percent": 2.39,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases, positive analyst forecasts (price target raised to $260), and positive news mentions suggest a bullish outlook.",
+            "reasoning": "Recent price increases and upward trend, coupled with positive analyst upgrades (Oppenheimer raising PT) and positive news about Alphabet (GOOGL) setting new all-time highs, outweighs the negative impact of the EU fine.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 346.4,
-            "price_change": -4.44,
-            "price_change_percent": -1.27,
-            "sentiment": "Bullish",
-            "reasoning": "Recent news indicates strong sales growth in the UK and potential for significant future valuation.  While there are some negative news items (lawsuits, concerns about Elon Musk's influence), the overwhelmingly positive news regarding sales and potential valuation outweighs the negative. The stock price shows an upward trend in recent weeks.",
+            "current_price": 346.97,
+            "price_change": 0.57,
+            "price_change_percent": 0.16,
+            "sentiment": "Neutral",
+            "reasoning": "Recent price action shows volatility, with both increases and decreases.  News sentiment is mixed, with both positive and negative reports impacting investor confidence.  The lack of a clear directional trend makes a neutral assessment appropriate.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 498.2,
-            "price_change": 3.2,
-            "price_change_percent": 0.65,
-            "sentiment": "Bearish",
-            "reasoning": "Recent price action shows a downward trend, coupled with news of insider selling and concerns about economic slowdown.",
+            "current_price": 498.41,
+            "price_change": 0.21,
+            "price_change_percent": 0.04,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price increases, positive news about large AI deals, and overall market optimism contribute to a bullish sentiment.  While some recent days show minor dips, the overall trend indicates upward momentum.",
             "predicted_range": null,
             "accuracy_check": null
         }
