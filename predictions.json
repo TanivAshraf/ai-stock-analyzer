@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-12T22:10:37.695362+00:00",
+    "last_updated": "2025-09-15T22:10:36.018748+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 234.07,
-            "price_change": 4.04,
-            "price_change_percent": 1.76,
+            "current_price": 236.7,
+            "price_change": 2.63,
+            "price_change_percent": 1.12,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown an overall upward trend in the provided historical data.  Recent news includes positive analyst ratings and price target increases, further supporting a bullish outlook.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days of increased trading volume.  Positive news related to increased institutional investment and strong product demand (iPhone) supports this bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 240.8,
-            "price_change": 0.43,
-            "price_change_percent": 0.18,
+            "current_price": 251.61,
+            "price_change": 10.81,
+            "price_change_percent": 4.49,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant increases in volume during periods of price growth.  Positive news articles and analyst upgrades further support a bullish outlook.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases accompanying recent price surges.  Positive news regarding Alphabet (GOOGL) includes increased investor holdings and the company's strong performance within the booming tech sector, despite layoff announcements.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 395.94,
-            "price_change": 27.13,
-            "price_change_percent": 7.36,
+            "current_price": 410.04,
+            "price_change": 14.1,
+            "price_change_percent": 3.56,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a significant upward trend over the past month, with consistent increases in closing prices and high volumes.  Positive news regarding Robotaxi launch and FSD advancements further support a bullish outlook.  While some negative news exists (lawsuit), the overall trend and positive developments outweigh the negative.",
+            "reasoning": "The stock price has shown a significant upward trend over the past month, with closing prices consistently increasing.  The recent surge in volume and high daily highs suggest strong buying pressure. Positive news headlines about increased holdings and promising stock analyses further support a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 509.9,
-            "price_change": 8.89,
-            "price_change_percent": 1.77,
-            "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility, with both increases and decreases.  News is mixed, with some positive (increased holdings) and some negative (decreased holdings, sell ratings on competitors).  The overall trend is not strongly bullish or bearish based on this limited data.",
+            "current_price": 515.36,
+            "price_change": 5.46,
+            "price_change_percent": 1.07,
+            "sentiment": "Bullish",
+            "reasoning": "Recent news shows continued institutional investment and increased share purchases, suggesting positive market sentiment.  While some institutions have reduced their holdings, the overall trend points towards a bullish outlook. The recent price action also shows a generally upward trend despite some daily fluctuations.",
             "predicted_range": null,
             "accuracy_check": null
         }
