@@ -1,43 +1,37 @@
 {
-    "last_updated": "2025-09-15T22:10:36.018748+00:00",
+    "last_updated": "2025-09-16T22:10:43.931754+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 236.7,
-            "price_change": 2.63,
-            "price_change_percent": 1.12,
+            "current_price": 238.15,
+            "price_change": 1.45,
+            "price_change_percent": 0.61,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with several days of increased trading volume.  Positive news related to increased institutional investment and strong product demand (iPhone) supports this bullish outlook.",
+            "reasoning": "Strong upward trend in recent price data, coupled with positive news regarding high iPhone 17 Pro demand and extended shipment delays suggesting strong consumer interest.  A consensus price target of $240.80 also indicates bullish sentiment from analysts.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 251.61,
-            "price_change": 10.81,
-            "price_change_percent": 4.49,
+            "current_price": 251.16,
+            "price_change": -0.45,
+            "price_change_percent": -0.18,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases accompanying recent price surges.  Positive news regarding Alphabet (GOOGL) includes increased investor holdings and the company's strong performance within the booming tech sector, despite layoff announcements.",
+            "reasoning": "Recent news indicates strong market performance, record highs, and positive analyst ratings.  The stock price shows a consistent upward trend over the past month, with significant volume increases on days with substantial price gains.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 410.04,
-            "price_change": 14.1,
-            "price_change_percent": 3.56,
-            "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a significant upward trend over the past month, with closing prices consistently increasing.  The recent surge in volume and high daily highs suggest strong buying pressure. Positive news headlines about increased holdings and promising stock analyses further support a bullish outlook.",
-            "predicted_range": null,
-            "accuracy_check": null
+            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         },
         {
             "symbol": "MSFT",
-            "current_price": 515.36,
-            "price_change": 5.46,
-            "price_change_percent": 1.07,
-            "sentiment": "Bullish",
-            "reasoning": "Recent news shows continued institutional investment and increased share purchases, suggesting positive market sentiment.  While some institutions have reduced their holdings, the overall trend points towards a bullish outlook. The recent price action also shows a generally upward trend despite some daily fluctuations.",
+            "current_price": 509.04,
+            "price_change": -6.32,
+            "price_change_percent": -1.23,
+            "sentiment": "Neutral",
+            "reasoning": "Recent price action shows volatility with no clear trend.  While some positive news exists (e.g., large stock purchases), negative news (e.g., comparison with competitors) also exists, leading to an overall neutral assessment.",
             "predicted_range": null,
             "accuracy_check": null
         }
