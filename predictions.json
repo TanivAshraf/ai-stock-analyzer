@@ -1,37 +1,43 @@
 {
-    "last_updated": "2025-09-16T22:10:43.931754+00:00",
+    "last_updated": "2025-09-17T22:10:46.440976+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 238.15,
-            "price_change": 1.45,
-            "price_change_percent": 0.61,
+            "current_price": 238.99,
+            "price_change": 0.84,
+            "price_change_percent": 0.35,
             "sentiment": "Bullish",
-            "reasoning": "Strong upward trend in recent price data, coupled with positive news regarding high iPhone 17 Pro demand and extended shipment delays suggesting strong consumer interest.  A consensus price target of $240.80 also indicates bullish sentiment from analysts.",
+            "reasoning": "The stock price shows an upward trend over the past month, with several instances of closing prices exceeding the previous day's high.  Recent positive news regarding Apple's AI roadmap and product launches, coupled with analyst target price increases, further supports a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 251.16,
-            "price_change": -0.45,
-            "price_change_percent": -0.18,
+            "current_price": 249.53,
+            "price_change": -1.63,
+            "price_change_percent": -0.65,
             "sentiment": "Bullish",
-            "reasoning": "Recent news indicates strong market performance, record highs, and positive analyst ratings.  The stock price shows a consistent upward trend over the past month, with significant volume increases on days with substantial price gains.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases on days of large price increases.  Positive news, including reaffirmed buy ratings and significant investments, further supports a bullish outlook.  While some market uncertainty exists (Fed decision), the overall trend is strongly positive.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
+            "current_price": 425.86,
+            "price_change": 4.24,
+            "price_change_percent": 1.01,
+            "sentiment": "Bullish",
+            "reasoning": "The stock price has shown a strong upward trend recently, reaching near its 2025 high after a 5-day win streak.  Positive news includes Morgan Stanley reiterating a bullish target of $410 and several articles highlighting the stock's surge. While there is negative news such as a lawsuit, the overall trend and analyst sentiment suggest a bullish outlook.",
+            "predicted_range": null,
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 509.04,
-            "price_change": -6.32,
-            "price_change_percent": -1.23,
-            "sentiment": "Neutral",
-            "reasoning": "Recent price action shows volatility with no clear trend.  While some positive news exists (e.g., large stock purchases), negative news (e.g., comparison with competitors) also exists, leading to an overall neutral assessment.",
+            "current_price": 510.02,
+            "price_change": 0.98,
+            "price_change_percent": 0.19,
+            "sentiment": "Bullish",
+            "reasoning": "Recent positive news regarding Microsoft's involvement with OpenAI and a larger dividend approval suggest a positive outlook.  While the broader market shows some weakness, MSFT's stock price shows recent increases and high volume trading.",
             "predicted_range": null,
             "accuracy_check": null
         }
