@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-17T22:10:46.440976+00:00",
+    "last_updated": "2025-09-18T22:10:33.426054+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 238.99,
-            "price_change": 0.84,
-            "price_change_percent": 0.35,
-            "sentiment": "Bullish",
-            "reasoning": "The stock price shows an upward trend over the past month, with several instances of closing prices exceeding the previous day's high.  Recent positive news regarding Apple's AI roadmap and product launches, coupled with analyst target price increases, further supports a bullish outlook.",
+            "current_price": 237.88,
+            "price_change": -1.11,
+            "price_change_percent": -0.46,
+            "sentiment": "Neutral",
+            "reasoning": "Recent news includes both positive and negative sentiment. While some analysts predict strong AI integration and future growth, others express concerns about the lack of significant AI innovation and a potential absence of a 'super cycle' for iPhone sales. The price data shows recent volatility but no clear trend.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 249.53,
-            "price_change": -1.63,
-            "price_change_percent": -0.65,
+            "current_price": 252.03,
+            "price_change": 2.5,
+            "price_change_percent": 1.0,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases on days of large price increases.  Positive news, including reaffirmed buy ratings and significant investments, further supports a bullish outlook.  While some market uncertainty exists (Fed decision), the overall trend is strongly positive.",
+            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases on days of price surges.  Positive news regarding AI advancements and partnerships further supports a bullish outlook.  An analyst price target of $280 also contributes to this sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 425.86,
-            "price_change": 4.24,
-            "price_change_percent": 1.01,
+            "current_price": 416.85,
+            "price_change": -9.01,
+            "price_change_percent": -2.12,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a strong upward trend recently, reaching near its 2025 high after a 5-day win streak.  Positive news includes Morgan Stanley reiterating a bullish target of $410 and several articles highlighting the stock's surge. While there is negative news such as a lawsuit, the overall trend and analyst sentiment suggest a bullish outlook.",
+            "reasoning": "The stock price has shown a significant upward trend in recent weeks, with closing prices consistently increasing.  While there are some negative news articles mentioning meme stock concerns, the overall trend and recent high volume trading suggest strong investor confidence.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 510.02,
-            "price_change": 0.98,
-            "price_change_percent": 0.19,
+            "current_price": 508.45,
+            "price_change": -1.57,
+            "price_change_percent": -0.31,
             "sentiment": "Bullish",
-            "reasoning": "Recent positive news regarding Microsoft's involvement with OpenAI and a larger dividend approval suggest a positive outlook.  While the broader market shows some weakness, MSFT's stock price shows recent increases and high volume trading.",
+            "reasoning": "Recent price action shows a generally upward trend, despite some daily fluctuations.  Positive news, such as increased institutional investment and long-term growth potential, supports a bullish outlook.  While short-term volatility is present, the overall trend suggests continued growth.",
             "predicted_range": null,
             "accuracy_check": null
         }
