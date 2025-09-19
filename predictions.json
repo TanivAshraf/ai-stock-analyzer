@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-18T22:10:33.426054+00:00",
+    "last_updated": "2025-09-19T22:11:41.302041+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 237.88,
-            "price_change": -1.11,
-            "price_change_percent": -0.46,
-            "sentiment": "Neutral",
-            "reasoning": "Recent news includes both positive and negative sentiment. While some analysts predict strong AI integration and future growth, others express concerns about the lack of significant AI innovation and a potential absence of a 'super cycle' for iPhone sales. The price data shows recent volatility but no clear trend.",
+            "current_price": 245.5,
+            "price_change": 7.62,
+            "price_change_percent": 3.2,
+            "sentiment": "Bullish",
+            "reasoning": "Recent price action shows a general upward trend, with several days of increases exceeding decreases.  Positive news regarding the overall market and Apple's pricing strategies contribute to bullish sentiment. While a single downgrade exists, the overall news is positive and the upward price momentum suggests strong investor confidence.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 252.03,
-            "price_change": 2.5,
-            "price_change_percent": 1.0,
+            "current_price": 254.72,
+            "price_change": 2.69,
+            "price_change_percent": 1.07,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a consistent upward trend over the past month, with significant volume increases on days of price surges.  Positive news regarding AI advancements and partnerships further supports a bullish outlook.  An analyst price target of $280 also contributes to this sentiment.",
+            "reasoning": "Recent price increases, crossing the $3 trillion market cap, and positive news about cloud AI spending and increased institutional investment suggest a positive outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 416.85,
-            "price_change": -9.01,
-            "price_change_percent": -2.12,
+            "current_price": 426.07,
+            "price_change": 9.22,
+            "price_change_percent": 2.21,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a significant upward trend in recent weeks, with closing prices consistently increasing.  While there are some negative news articles mentioning meme stock concerns, the overall trend and recent high volume trading suggest strong investor confidence.",
+            "reasoning": "Recent price increases, high trading volume, and positive news articles about TSLA's future and potential short squeezes suggest a bullish sentiment.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 508.45,
-            "price_change": -1.57,
-            "price_change_percent": -0.31,
+            "current_price": 517.93,
+            "price_change": 9.48,
+            "price_change_percent": 1.86,
             "sentiment": "Bullish",
-            "reasoning": "Recent price action shows a generally upward trend, despite some daily fluctuations.  Positive news, such as increased institutional investment and long-term growth potential, supports a bullish outlook.  While short-term volatility is present, the overall trend suggests continued growth.",
+            "reasoning": "Recent news indicates positive analyst sentiment, strong total return predictions, and successful actions against cyber threats.  The stock price shows an upward trend over the past month, with minor fluctuations.",
             "predicted_range": null,
             "accuracy_check": null
         }
