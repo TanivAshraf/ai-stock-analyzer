@@ -1,43 +1,43 @@
 {
-    "last_updated": "2025-09-22T22:11:41.621430+00:00",
+    "last_updated": "2025-09-23T22:11:22.326633+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "current_price": 256.08,
-            "price_change": 10.58,
-            "price_change_percent": 4.31,
+            "current_price": 254.43,
+            "price_change": -1.65,
+            "price_change_percent": -0.64,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and high trading volumes, coupled with positive news (multiple firms increasing their AAPL holdings) suggest a bullish trend.",
+            "reasoning": "Recent news points to strong iPhone 17 demand, record highs in major market indices, and increased price targets.  While there are some bearish counterpoints (regulatory concerns, one insider selling), the overall trend and positive market sentiment strongly suggest a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "GOOGL",
-            "current_price": 252.53,
-            "price_change": -2.19,
-            "price_change_percent": -0.86,
+            "current_price": 251.66,
+            "price_change": -0.87,
+            "price_change_percent": -0.34,
             "sentiment": "Bullish",
-            "reasoning": "The stock price has shown a significant upward trend in recent weeks, especially in the last couple of days, with increases exceeding 10%.  Positive news includes a large contract win with the UK Ministry of Defence and multiple analyst upgrades highlighting potential for growth due to rising GenAI adoption.  While there is mention of a shift in market sentiment towards technology, the positive momentum and recent news suggest a bullish outlook.",
+            "reasoning": "The stock price has shown a significant upward trend in recent days, culminating in a sharp increase on September 3rd and sustained growth since then.  Despite some news regarding antitrust concerns, the overall price action suggests strong investor confidence.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "TSLA",
-            "current_price": 434.21,
-            "price_change": 8.14,
-            "price_change_percent": 1.91,
+            "current_price": 425.85,
+            "price_change": -8.36,
+            "price_change_percent": -1.93,
             "sentiment": "Bullish",
-            "reasoning": "Recent price increases and positive analyst upgrades suggest a bullish trend.  The stock has shown significant upward momentum in the past few weeks, exceeding recent highs.",
+            "reasoning": "Recent price increases, hitting new closing highs, and positive news regarding stock performance outweigh negative news such as class action lawsuits and regulatory pushback.",
             "predicted_range": null,
             "accuracy_check": null
         },
         {
             "symbol": "MSFT",
-            "current_price": 514.45,
-            "price_change": -3.48,
-            "price_change_percent": -0.67,
+            "current_price": 509.23,
+            "price_change": -5.22,
+            "price_change_percent": -1.01,
             "sentiment": "Bullish",
-            "reasoning": "While some analysts have downgraded MSFT, recent price action shows upward momentum, and bullish news regarding AI commercialization outweighs bearish sentiment.",
+            "reasoning": "Recent price action shows a generally upward trend, supported by positive news such as Microsoft's significant AI investment and strong Q2 results driven by Azure growth.  Record highs in the broader market also contribute to a bullish outlook.",
             "predicted_range": null,
             "accuracy_check": null
         }
