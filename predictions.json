@@ -1,9 +1,9 @@
 {
-    "last_updated": "2026-05-12T22:52:30.322738+00:00",
+    "last_updated": "2026-05-13T22:57:35.791735+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
-            "error": "yfinance returned insufficient data for AAPL"
+            "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
         },
         {
             "symbol": "GOOGL",
