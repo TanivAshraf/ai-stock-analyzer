@@ -1,4 +1,4 @@
-# --- generate_predictions.py (RESEARCH-GRADE SECURE VERSION) ---
+# --- generate_predictions.py (SELF-HEALING AUTO-DISCOVERY VERSION) ---
 
 import os
 import json
@@ -25,17 +25,51 @@ if not GEMINI_API_KEY:
     print("FATAL: GEMINI_API_KEY not found in environment secrets.")
     exit(1)
 
-# Secure endpoint without sensitive query strings
-GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
+# --- Dynamic Model Auto-Discovery ---
+def resolve_active_gemini_endpoint():
+    """Queries Google's ListModels to dynamically pick the active Flash model."""
+    preferred = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-flash']
+    try:
+        list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={GEMINI_API_KEY}"
+        res = requests.get(list_url, timeout=10)
+        if res.status_code == 200:
+            models_data = res.json().get('models', [])
+            supported = [
+                m['name'].replace('models/', '')
+                for m in models_data
+                if 'generateContent' in m.get('supportedGenerationMethods', [])
+            ]
+            print(f"Discovered active models on account: {supported[:6]}")
+            
+            # Match preferred modern models first
+            for candidate in preferred:
+                if candidate in supported:
+                    print(f"Selected model: {candidate}")
+                    return f"https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent"
+            
+            # If none of preferred match, pick any available flash model
+            for m_name in supported:
+                if 'flash' in m_name:
+                    print(f"Fallback selected flash model: {m_name}")
+                    return f"https://generativelanguage.googleapis.com/v1beta/models/{m_name}:generateContent"
+                    
+            if supported:
+                return f"https://generativelanguage.googleapis.com/v1beta/models/{supported[0]}:generateContent"
+    except Exception as e:
+        print(f"Model auto-discovery notice: {e}")
+
+    # Fallback standard
+    return "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
+
+ACTIVE_API_URL = resolve_active_gemini_endpoint()
 
 # --- Helper Functions ---
 def get_stock_data_and_news(symbol):
-    """Fetches historical stock data and recent news with robust structure handling."""
+    """Fetches historical stock data and recent news with robust column handling."""
     stock_data = yf.download(symbol, period="2mo", auto_adjust=True, progress=False)
     if stock_data.empty or len(stock_data) < 2:
         raise ValueError(f"yfinance returned insufficient data for {symbol}")
     
-    # Clean handling for yfinance 1.x multi-index or flat columns
     if isinstance(stock_data.columns, pd.MultiIndex):
         try:
             close_series = stock_data['Close'][symbol]
@@ -62,7 +96,7 @@ def get_stock_data_and_news(symbol):
     return stock_data, close_series, news_headlines
 
 def get_ai_analysis(symbol, historical_data, news_headlines):
-    """Generates structured analysis using Google Gemini with strict JSON mode."""
+    """Generates structured analysis using Gemini."""
     prompt = f"""
     You are an expert quantitative financial analyst. Analyze ticker {symbol}.
     Respond with a single, valid JSON object containing exactly these keys:
@@ -77,7 +111,6 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
     {news_headlines}
     """
 
-    # Note: REST API uses camelCase responseMimeType
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -86,19 +119,17 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
         }
     }
 
-    # Pass key via header for security
-    headers = {
-        "Content-Type": "application/json",
-        "x-goog-api-key": GEMINI_API_KEY
-    }
+    target_url = f"{ACTIVE_API_URL}?key={GEMINI_API_KEY}"
+    headers = {"Content-Type": "application/json"}
 
     max_retries = 3
     for attempt in range(max_retries):
         try:
-            response = requests.post(GEMINI_API_URL, headers=headers, json=payload, timeout=45)
+            response = requests.post(target_url, headers=headers, json=payload, timeout=45)
             
             if response.status_code != 200:
-                print(f"API Error Response ({response.status_code}): {response.text}")
+                safe_err = response.text.replace(GEMINI_API_KEY, "[REDACTED]")
+                print(f"API Error Response ({response.status_code}): {safe_err}")
                 response.raise_for_status()
             
             res_json = response.json()
@@ -107,11 +138,9 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
                 raise ValueError("No candidate generation returned by the model.")
             
             raw_text = candidates[0]['content']['parts'][0]['text'].strip()
-            # Clean possible markdown formatting
             clean_text = raw_text.replace('```json', '').replace('```', '').strip()
             parsed = json.loads(clean_text)
             
-            # Normalize sentiment
             sentiment = str(parsed.get('sentiment', 'Neutral')).capitalize()
             if sentiment not in ['Bullish', 'Bearish', 'Neutral']:
                 sentiment = 'Neutral'
@@ -120,7 +149,8 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
             return parsed
 
         except Exception as e:
-            print(f"Attempt {attempt + 1} for {symbol} failed: {e}")
+            safe_exception_str = str(e).replace(GEMINI_API_KEY, "[REDACTED]")
+            print(f"Attempt {attempt + 1} for {symbol} failed: {safe_exception_str}")
             if attempt < max_retries - 1:
                 time.sleep(4)
             else:
@@ -163,7 +193,7 @@ def main():
         print(f"Processing {symbol}...")
         try:
             if SYMBOLS.index(symbol) > 0:
-                time.sleep(5)  # Respect free tier rate limits
+                time.sleep(4)
 
             stock_data, close_series, news = get_stock_data_and_news(symbol)
             current_price = float(close_series.iloc[-1])
@@ -174,7 +204,6 @@ def main():
             price_change = current_price - previous_close
             price_change_percent = (price_change / previous_close) * 100
             
-            # Check accuracy of yesterday's forecast against today's actual price
             accuracy_check_hit = None
             yesterdays_predicted_range_str = "N/A"
             if symbol in previous_predictions:
@@ -233,7 +262,7 @@ def main():
     with open(LIVE_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(todays_data_for_json, f, indent=4)
         
-    print(f"\nExecution finished. Successfully updated {LIVE_JSON_FILE} and appended to {HISTORY_CSV_FILE}.")
+    print(f"\nCompleted execution. Updated {LIVE_JSON_FILE} and appended to {HISTORY_CSV_FILE}.")
 
 if __name__ == "__main__":
     main()
