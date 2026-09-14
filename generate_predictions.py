@@ -1,4 +1,4 @@
-# --- generate_predictions.py (SECURE & ENHANCED VERSION) ---
+# --- generate_predictions.py (RESEARCH-GRADE SECURE VERSION) ---
 
 import os
 import json
@@ -22,19 +22,22 @@ if not GEMINI_API_KEY:
     print("FATAL: GEMINI_API_KEY not found in environment secrets.")
     exit(1)
 
-# Secure endpoint: No API key in the URL string
+# Secure endpoint without sensitive query strings
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent"
 
 # --- Helper Functions ---
 def get_stock_data_and_news(symbol):
-    """Fetches historical stock data and recent news."""
+    """Fetches historical stock data and recent news with robust structure handling."""
     stock_data = yf.download(symbol, period="2mo", auto_adjust=True, progress=False)
     if stock_data.empty or len(stock_data) < 2:
         raise ValueError(f"yfinance returned insufficient data for {symbol}")
     
-    # Handle single or multi-index column structures cleanly
+    # Clean handling for yfinance 1.x multi-index or flat columns
     if isinstance(stock_data.columns, pd.MultiIndex):
-        close_series = stock_data['Close'][symbol]
+        try:
+            close_series = stock_data['Close'][symbol]
+        except KeyError:
+            close_series = stock_data['Close'].iloc[:, 0]
     else:
         close_series = stock_data['Close']
 
@@ -56,30 +59,31 @@ def get_stock_data_and_news(symbol):
     return stock_data, close_series, news_headlines
 
 def get_ai_analysis(symbol, historical_data, news_headlines):
-    """Generates structured analysis from Gemini with native JSON mode."""
+    """Generates structured analysis using Google Gemini with strict JSON mode."""
     prompt = f"""
-    You are an expert financial analyst. Analyze the following data for ticker {symbol}.
-    Return a strictly valid JSON object with the following keys:
-    - "sentiment": Must be one of ["Bullish", "Bearish", "Neutral"].
-    - "reasoning": A concise 2-sentence rationale synthesizing recent news and price momentum.
-    - "predicted_range": A 2-element array of numbers representing [predicted_low, predicted_high] for tomorrow's session.
+    You are an expert quantitative financial analyst. Analyze ticker {symbol}.
+    Respond with a single, valid JSON object containing exactly these keys:
+    - "sentiment": string, strictly one of "Bullish", "Bearish", or "Neutral".
+    - "reasoning": string, concise 2-sentence rationale synthesizing price action and news.
+    - "predicted_range": array of two numbers [predicted_low, predicted_high] for tomorrow's trading session.
 
-    Recent 30-Day Historical Data:
+    Historical 30-Day OHLCV Data:
     {historical_data.tail(30).to_string()}
 
-    Recent News Headlines:
+    Recent 24-Hour News Headlines:
     {news_headlines}
     """
 
+    # Note: REST API uses camelCase responseMimeType
     payload = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
-            "response_mime_type": "application/json",
+            "responseMimeType": "application/json",
             "temperature": 0.2
         }
     }
 
-    # Pass API key securely via headers to prevent URL leakage in logs
+    # Pass key via header for security
     headers = {
         "Content-Type": "application/json",
         "x-goog-api-key": GEMINI_API_KEY
@@ -89,17 +93,22 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
     for attempt in range(max_retries):
         try:
             response = requests.post(GEMINI_API_URL, headers=headers, json=payload, timeout=45)
-            response.raise_for_status()
+            
+            if response.status_code != 200:
+                print(f"API Error Response ({response.status_code}): {response.text}")
+                response.raise_for_status()
             
             res_json = response.json()
             candidates = res_json.get('candidates', [])
             if not candidates:
-                raise ValueError("Empty candidate response from Gemini API.")
+                raise ValueError("No candidate generation returned by the model.")
             
             raw_text = candidates[0]['content']['parts'][0]['text'].strip()
-            parsed = json.loads(raw_text)
+            # Clean possible markdown formatting
+            clean_text = raw_text.replace('```json', '').replace('```', '').strip()
+            parsed = json.loads(clean_text)
             
-            # Normalize and validate sentiment key
+            # Normalize sentiment
             sentiment = str(parsed.get('sentiment', 'Neutral')).capitalize()
             if sentiment not in ['Bullish', 'Bearish', 'Neutral']:
                 sentiment = 'Neutral'
@@ -108,14 +117,14 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
             return parsed
 
         except Exception as e:
-            print(f"Attempt {attempt + 1} for {symbol} failed.")
+            print(f"Attempt {attempt + 1} for {symbol} failed: {e}")
             if attempt < max_retries - 1:
-                time.sleep(3)
+                time.sleep(4)
             else:
                 raise RuntimeError(f"All retry attempts failed for {symbol}.")
 
 def log_to_history_csv(log_data):
-    """Appends a row to history.csv safely without duplication."""
+    """Appends daily evaluation row to history.csv cleanly."""
     headers = [
         'date', 'symbol', 'actual_price', 'price_change', 
         'price_change_percent', 'ai_sentiment_for_tomorrow', 
@@ -130,7 +139,7 @@ def log_to_history_csv(log_data):
             writer.writeheader()
         writer.writerow(log_data)
 
-# --- Main Execution Loop ---
+# --- Main Pipeline ---
 def main():
     previous_predictions = {}
     try:
@@ -140,7 +149,7 @@ def main():
                 if 'symbol' in item and 'error' not in item:
                     previous_predictions[item['symbol']] = item
     except (FileNotFoundError, json.JSONDecodeError):
-        print("Previous predictions file not found or empty. Initializing fresh run.")
+        print("Previous predictions file not found or empty. Initializing new run.")
 
     todays_data_for_json = {
         'last_updated': datetime.now(timezone.utc).isoformat(),
@@ -151,7 +160,7 @@ def main():
         print(f"Processing {symbol}...")
         try:
             if SYMBOLS.index(symbol) > 0:
-                time.sleep(4)
+                time.sleep(5)  # Respect free tier rate limits
 
             stock_data, close_series, news = get_stock_data_and_news(symbol)
             current_price = float(close_series.iloc[-1])
@@ -162,7 +171,7 @@ def main():
             price_change = current_price - previous_close
             price_change_percent = (price_change / previous_close) * 100
             
-            # Historical accuracy range check
+            # Check accuracy of yesterday's forecast against today's actual price
             accuracy_check_hit = None
             yesterdays_predicted_range_str = "N/A"
             if symbol in previous_predictions:
@@ -177,7 +186,7 @@ def main():
             low_val = round(float(pred_range[0]), 2) if pred_range[0] is not None else None
             high_val = round(float(pred_range[1]), 2) if pred_range[1] is not None else None
 
-            # 1. Dashboard JSON record
+            # 1. Update Live JSON
             live_record = {
                 'symbol': symbol,
                 'current_price': round(current_price, 2),
@@ -194,7 +203,7 @@ def main():
             }
             todays_data_for_json['predictions'].append(live_record)
 
-            # 2. History CSV record
+            # 2. Append to Persistent History CSV
             historical_log_record = {
                 'date': datetime.now(timezone.utc).strftime('%Y-%m-%d'),
                 'symbol': symbol,
@@ -209,20 +218,19 @@ def main():
             }
             log_to_history_csv(historical_log_record)
 
-            print(f"Successfully processed {symbol}: {ai_output.get('sentiment')}")
+            print(f"Successfully processed {symbol}: {ai_output.get('sentiment')} ({low_val} - {high_val})")
 
         except Exception as err:
             print(f"Error processing {symbol}: {err}")
-            # Sanitize error to avoid leaking system paths or credentials
             todays_data_for_json['predictions'].append({
                 'symbol': symbol,
-                'error': 'API or data retrieval failure for this trading session.'
+                'error': 'Data or prediction pipeline failure for this session.'
             })
 
     with open(LIVE_JSON_FILE, 'w', encoding='utf-8') as f:
         json.dump(todays_data_for_json, f, indent=4)
         
-    print(f"\nCompleted run. Successfully updated {LIVE_JSON_FILE} and {HISTORY_CSV_FILE}.")
+    print(f"\nExecution finished. Successfully updated {LIVE_JSON_FILE} and appended to {HISTORY_CSV_FILE}.")
 
 if __name__ == "__main__":
     main()
