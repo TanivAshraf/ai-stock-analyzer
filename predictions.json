@@ -1,21 +1,4 @@
 {
-    "last_updated": "2026-09-11T23:42:33.319500+00:00",
-    "predictions": [
-        {
-            "symbol": "AAPL",
-            "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
-        },
-        {
-            "symbol": "GOOGL",
-            "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
-        },
-        {
-            "symbol": "TSLA",
-            "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
-        },
-        {
-            "symbol": "MSFT",
-            "error": "400 Client Error: Bad Request for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCXz0nnf8mLDOIJaSSMhBTJ8Lklm_9Ys44"
-        }
-    ]
+    "last_updated": "2026-09-14T00:00:00.000000+00:00",
+    "predictions": []
 }
