@@ -25,38 +25,35 @@ if not GEMINI_API_KEY:
     print("FATAL: GEMINI_API_KEY not found in environment secrets.")
     exit(1)
 
-# --- Dynamic Model Auto-Discovery ---
+# --- Dynamic Model Resolution ---
 def resolve_active_gemini_endpoint():
-    """Queries Google's ListModels to dynamically pick the active Flash model."""
-    preferred = ['gemini-2.5-flash', 'gemini-2.0-flash', 'gemini-1.5-flash-latest', 'gemini-1.5-flash']
-    try:
-        list_url = f"https://generativelanguage.googleapis.com/v1beta/models?key={GEMINI_API_KEY}"
-        res = requests.get(list_url, timeout=10)
-        if res.status_code == 200:
-            models_data = res.json().get('models', [])
-            supported = [
-                m['name'].replace('models/', '')
-                for m in models_data
-                if 'generateContent' in m.get('supportedGenerationMethods', [])
-            ]
-            print(f"Discovered active models on account: {supported[:6]}")
-            
-            # Match preferred modern models first
-            for candidate in preferred:
-                if candidate in supported:
-                    print(f"Selected model: {candidate}")
-                    return f"https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent"
-            
-            # If none of preferred match, pick any available flash model
-            for m_name in supported:
-                if 'flash' in m_name:
-                    print(f"Fallback selected flash model: {m_name}")
-                    return f"https://generativelanguage.googleapis.com/v1beta/models/{m_name}:generateContent"
-                    
-            if supported:
-                return f"https://generativelanguage.googleapis.com/v1beta/models/{supported[0]}:generateContent"
-    except Exception as e:
-        print(f"Model auto-discovery notice: {e}")
+    """Verifies live model availability, prioritizing Google's recommended gemini-3.6-flash."""
+    candidates = ['gemini-3.6-flash', 'gemini-2.5-pro']
+    
+    for candidate in candidates:
+        endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{candidate}:generateContent"
+        try:
+            ping_url = f"{endpoint}?key={GEMINI_API_KEY}"
+            test_res = requests.post(
+                ping_url,
+                headers={"Content-Type": "application/json"},
+                json={"contents": [{"parts": [{"text": "ping"}]}]},
+                timeout=10
+            )
+            if test_res.status_code == 200:
+                print(f"Verified live operational model: {candidate}")
+                return endpoint
+            else:
+                print(f"Model {candidate} ping returned status {test_res.status_code}")
+        except Exception as e:
+            print(f"Model {candidate} ping check error: {e}")
+
+    # Fallback to recommended model
+    print("Defaulting to recommended: gemini-3.6-flash")
+    return "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent"
+
+ACTIVE_API_URL = resolve_active_gemini_endpoint()
+
 
     # Fallback standard
     return "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
