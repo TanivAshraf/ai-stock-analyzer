@@ -15,8 +15,11 @@ LIVE_JSON_FILE = 'predictions.json'
 HISTORY_CSV_FILE = 'history.csv'
 
 # --- API Setup ---
-GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
-NEWS_API_KEY = os.environ.get('NEWS_API_KEY')
+raw_gemini_key = os.environ.get('GEMINI_API_KEY', '')
+GEMINI_API_KEY = raw_gemini_key.strip().strip('"').strip("'")
+
+raw_news_key = os.environ.get('NEWS_API_KEY', '')
+NEWS_API_KEY = raw_news_key.strip().strip('"').strip("'")
 
 if not GEMINI_API_KEY:
     print("FATAL: GEMINI_API_KEY not found in environment secrets.")
