@@ -1,4 +1,4 @@
-date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomorrow,predicted_low_for_tomorrow,predicted_high_for_tomorrow,yesterdays_predicted_range,accuracy_check_hit
+date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomorrow,confidence,primary_driver,predicted_low_for_tomorrow,predicted_high_for_tomorrow,yesterdays_predicted_range,accuracy_check_hit
 2025-07-16,AAPL,210.16,1.05,0.5021,Bullish,,,N/A,
 2025-07-16,GOOGL,182.97,0.97,0.533,Bullish,,,N/A,
 2025-07-16,TSLA,321.67,10.89,3.5041,Neutral,,,N/A,
@@ -196,3 +196,11 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2026-09-15,GOOGL,349.39,10.89,3.2171,Bullish,345.5,354.5,N/A,
 2026-09-15,TSLA,358.97,-6.47,-1.7705,Neutral,353.5,366.5,N/A,
 2026-09-15,MSFT,505.41,9.78,1.9732,Bullish,498.5,511.5,N/A,
+2026-09-15,AAPL,333.08,0.81,0.2438,Bullish,0.72,Technical Momentum,329.5,336.5,$330.50 - $337.20,True
+2026-09-15,NVDA,210.96,-7.33,-3.3579,Neutral,0.65,Technical Momentum,205.5,216.5,N/A,
+2026-09-15,MSFT,505.41,9.78,1.9732,Bullish,0.75,Technical Momentum,498.0,512.0,$498.50 - $511.50,True
+2026-09-15,JPM,350.13,-6.1,-1.7124,Bearish,0.68,Technical Momentum,346.5,353.0,N/A,
+2026-09-15,JNJ,266.32,0.74,0.2786,Bullish,0.72,Product/Technology,263.8,269.2,N/A,
+2026-09-15,XOM,165.08,-0.91,-0.5482,Bullish,0.78,Macro/Fed,163.5,167.0,N/A,
+2026-09-15,SPY,760.88,-3.41,-0.4462,Neutral,0.65,Technical Momentum,756.5,765.5,N/A,
+2026-09-15,TSLA,358.97,-6.47,-1.7705,Bullish,0.65,Product/Technology,350.5,367.5,$353.50 - $366.50,True
