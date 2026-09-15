@@ -1,143 +1,163 @@
 {
-    "last_updated": "2026-09-15T04:35:01.702917+00:00",
+    "last_updated": "2026-09-15T23:50:29.240570+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": 333.08,
-            "price_change": 0.81,
-            "price_change_percent": 0.24,
+            "current_price": 331.34,
+            "price_change": -1.74,
+            "price_change_percent": -0.52,
             "sentiment": "Bullish",
-            "confidence": 0.72,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "AAPL exhibits strong bullish momentum, advancing to $333.08 and trading significantly above its 20-day SMA of $317.98 despite a slightly overbought 14-day RSI of 70.5. Sentiment is further supported by positive product speculation regarding new gaming accessories and sustained confidence in long-term share buybacks.",
+            "confidence": 0.78,
+            "primary_driver": "Product/Technology",
+            "reasoning": "Strong technical momentum is evident as AAPL trades comfortably above its 20-day ($319.27) and 50-day ($318.70) SMAs despite an RSI approaching overbought levels at 68.9. The launch of iOS 27 featuring expanded Apple Intelligence functionality and major broker price target upgrades provide solid fundamental catalysts to sustain the upward trajectory.",
             "predicted_range": [
-                329.5,
-                336.5
+                327.5,
+                335.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$330.50 - $337.20",
-                "todays_actual_price": "$333.08",
+                "yesterdays_predicted_range": "$329.50 - $336.50",
+                "todays_actual_price": "$331.34",
                 "hit": true
             }
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": 210.96,
-            "price_change": -7.33,
-            "price_change_percent": -3.36,
+            "current_price": 212.17,
+            "price_change": 1.21,
+            "price_change_percent": 0.57,
             "sentiment": "Neutral",
-            "confidence": 0.65,
+            "confidence": 0.62,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Despite strong secular AI compute demand highlighted in recent headlines, NVDA is experiencing short-term downside pressure, pulling back sharply from recent highs of $230.10 to $210.96 on above-average volume. With the 14-day RSI neutral at 51.8 and price currently testing support below the 20-day SMA ($219.24), consolidation is expected amid elevated 45.9% volatility.",
+            "reasoning": "NVDA has pulled back from recent highs near $230 to test support around its 50-day SMA of $213.02, while the RSI sits at a neutral 49.6. Amid mixed news sentiment regarding rival AI chipmakers and macro yield pressures, near-term price action is expected to remain range-bound.",
             "predicted_range": [
-                205.5,
+                207.5,
                 216.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$205.50 - $216.50",
+                "todays_actual_price": "$212.17",
+                "hit": true
+            }
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": 505.41,
-            "price_change": 9.78,
-            "price_change_percent": 1.97,
+            "current_price": 497.12,
+            "price_change": -8.29,
+            "price_change_percent": -1.64,
             "sentiment": "Bullish",
-            "confidence": 0.75,
+            "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Microsoft demonstrated strong technical momentum with a solid push back above its 20-day SMA of $494.80 to close at $505.41 on increased volume. Supported by a healthy 14-day RSI of 60.2 and a bullish moving average structure, price action favors continued upward trajectory despite ongoing enterprise competition.",
+            "reasoning": "MSFT continues to consolidate near its 20-day SMA ($495.68) with a neutral RSI of 52.9, preserving a clear medium-term uptrend well above the 50-day SMA ($457.65). Market focus on AI cloud efficiency remains steady, providing strong structural support for price action around current levels.",
             "predicted_range": [
-                498.0,
-                512.0
+                490.5,
+                504.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$498.50 - $511.50",
-                "todays_actual_price": "$505.41",
-                "hit": true
+                "yesterdays_predicted_range": "$498.00 - $512.00",
+                "todays_actual_price": "$497.12",
+                "hit": false
             }
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "current_price": 350.13,
-            "price_change": -6.1,
-            "price_change_percent": -1.71,
-            "sentiment": "Bearish",
-            "confidence": 0.68,
+            "current_price": 352.49,
+            "price_change": 2.36,
+            "price_change_percent": 0.67,
+            "sentiment": "Neutral",
+            "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "JPM experienced a sharp high-volume sell-off to $350.13, breaching both its 20-day and 50-day simple moving averages. With the 14-day RSI declining to 41.2 amidst broader market correction fears, short-term momentum signals additional downside risk.",
+            "reasoning": "JPMorgan Chase is testing key support at its 50-day SMA ($352.35) on significantly elevated volume following a gradual decline from August peaks. With a neutral 14-day RSI of 44.4 and macro caution across equity markets, price action points to short-term consolidation around current support levels.",
             "predicted_range": [
-                346.5,
-                353.0
+                348.5,
+                356.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$346.50 - $353.00",
+                "todays_actual_price": "$352.49",
+                "hit": true
+            }
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": 266.32,
-            "price_change": 0.74,
-            "price_change_percent": 0.28,
+            "current_price": 267.2,
+            "price_change": 0.88,
+            "price_change_percent": 0.33,
             "sentiment": "Bullish",
             "confidence": 0.72,
             "primary_driver": "Product/Technology",
-            "reasoning": "JNJ has experienced a mild pull-back from recent highs near $278, pushing the RSI down to 43.2 and stabilizing price action near the $266 level above its 50-day SMA ($261.86). Positive clinical trial results for RYBREVANT and rumored divestiture of its $20B orthopedics unit present strong structural catalysts for a near-term rebound.",
+            "reasoning": "Positive catalysts including Rybrevant's lung cancer trial success and reported talks to sell its orthopedics unit for $20B provide strong fundamental support. With RSI at 42.4 following a pullback toward the 50-day SMA, the setup favors a bullish reversal.",
             "predicted_range": [
-                263.8,
-                269.2
+                264.5,
+                271.0
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$263.80 - $269.20",
+                "todays_actual_price": "$267.20",
+                "hit": true
+            }
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": 165.08,
-            "price_change": -0.91,
-            "price_change_percent": -0.55,
+            "current_price": 169.32,
+            "price_change": 4.24,
+            "price_change_percent": 2.57,
             "sentiment": "Bullish",
-            "confidence": 0.78,
+            "confidence": 0.82,
             "primary_driver": "Macro/Fed",
-            "reasoning": "ExxonMobil trades in a structural uptrend with price holding above both its 20-day ($162.58) and 50-day ($155.15) SMAs, while an RSI of 51.8 leaves ample room for further momentum. Elevated oil prices above $100 and favorable long-term cash flow guidance provide strong fundamental and macro support for continued upside.",
+            "reasoning": "ExxonMobil exhibits strong bullish momentum, surging to $169.32 as the 20-day SMA remains well above the 50-day SMA with RSI at 64.9. Higher macro crude oil prices above $100/bbl are providing powerful tailwinds to energy sector fundamentals despite minor operational headlines.",
             "predicted_range": [
-                163.5,
-                167.0
+                167.1,
+                171.8
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$163.50 - $167.00",
+                "todays_actual_price": "$169.32",
+                "hit": false
+            }
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": 760.88,
-            "price_change": -3.41,
-            "price_change_percent": -0.45,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
+            "current_price": 757.39,
+            "price_change": -3.49,
+            "price_change_percent": -0.46,
+            "sentiment": "Bearish",
+            "confidence": 0.63,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY is consolidating near its 50-day SMA of $758.94 with a neutral 14-day RSI of 47.6, reflecting balanced buying and selling pressure. Low annualized volatility of 8.8% and a lack of major macro catalysts suggest near-term sideways trading between 50-day support and 20-day SMA resistance.",
+            "reasoning": "SPY has broken below its key 50-day SMA support level ($759.06) as short-term momentum weakens with an RSI of 42.2. With minimal macro catalysts in recent news, price action suggests a high probability of continued short-term downward consolidation.",
             "predicted_range": [
-                756.5,
-                765.5
+                753.5,
+                761.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$756.50 - $765.50",
+                "todays_actual_price": "$757.39",
+                "hit": true
+            }
         },
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "current_price": 358.97,
-            "price_change": -6.47,
-            "price_change_percent": -1.77,
+            "current_price": 356.58,
+            "price_change": -2.39,
+            "price_change_percent": -0.67,
             "sentiment": "Bullish",
-            "confidence": 0.65,
+            "confidence": 0.68,
             "primary_driver": "Product/Technology",
-            "reasoning": "TSLA maintains a bullish structure, trading above both its 20-day ($355.96) and 50-day ($353.81) SMAs with a balanced 14-day RSI of 54.1. Positive sentiment is supported by news highlighting Tesla's expanding U.S. EV market share and solid long-term Robotaxi monetization potential.",
+            "reasoning": "TSLA is currently consolidating around its 20-day SMA ($356.83) with a neutral RSI of 52.6, maintaining a positive short-term technical structure above the 50-day SMA. Positive momentum from full self-driving safety updates and recent Cathie Wood buying provides fundamental backing for a bounce off support.",
             "predicted_range": [
-                350.5,
+                348.5,
                 367.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$353.50 - $366.50",
-                "todays_actual_price": "$358.97",
+                "yesterdays_predicted_range": "$350.50 - $367.50",
+                "todays_actual_price": "$356.58",
                 "hit": true
             }
         }
