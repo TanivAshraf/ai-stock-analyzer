@@ -1,4 +1,4 @@
-# --- generate_predictions.py (SELF-HEALING AUTO-DISCOVERY VERSION) ---
+# --- generate_predictions.py (COMPLETE & BULLETPROOF VERSION) ---
 
 import os
 import json
@@ -14,7 +14,7 @@ SYMBOLS = ['AAPL', 'GOOGL', 'TSLA', 'MSFT']
 LIVE_JSON_FILE = 'predictions.json'
 HISTORY_CSV_FILE = 'history.csv'
 
-# --- API Setup ---
+# --- API Credentials ---
 raw_gemini_key = os.environ.get('GEMINI_API_KEY', '')
 GEMINI_API_KEY = raw_gemini_key.strip().strip('"').strip("'")
 
@@ -48,19 +48,12 @@ def resolve_active_gemini_endpoint():
         except Exception as e:
             print(f"Model {candidate} ping check error: {e}")
 
-    # Fallback to recommended model
     print("Defaulting to recommended: gemini-3.6-flash")
     return "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent"
 
 ACTIVE_API_URL = resolve_active_gemini_endpoint()
 
-
-    # Fallback standard
-    return "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
-
-ACTIVE_API_URL = resolve_active_gemini_endpoint()
-
-# --- Helper Functions ---
+# --- Data Ingestion ---
 def get_stock_data_and_news(symbol):
     """Fetches historical stock data and recent news with robust column handling."""
     stock_data = yf.download(symbol, period="2mo", auto_adjust=True, progress=False)
@@ -87,13 +80,14 @@ def get_stock_data_and_news(symbol):
             articles = res.json().get('articles', [])
             if articles:
                 news_headlines = "\n".join([f"- {a['title']}" for a in articles if a.get('title')])
-        except Exception as e:
+        except Exception:
             news_headlines = "Could not fetch news headlines."
 
     return stock_data, close_series, news_headlines
 
+# --- LLM Analysis ---
 def get_ai_analysis(symbol, historical_data, news_headlines):
-    """Generates structured analysis using Gemini."""
+    """Generates structured analysis using Google Gemini."""
     prompt = f"""
     You are an expert quantitative financial analyst. Analyze ticker {symbol}.
     Respond with a single, valid JSON object containing exactly these keys:
@@ -132,7 +126,7 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
             res_json = response.json()
             candidates = res_json.get('candidates', [])
             if not candidates:
-                raise ValueError("No candidate generation returned by the model.")
+                raise ValueError("No candidate generation returned by model.")
             
             raw_text = candidates[0]['content']['parts'][0]['text'].strip()
             clean_text = raw_text.replace('```json', '').replace('```', '').strip()
@@ -146,8 +140,8 @@ def get_ai_analysis(symbol, historical_data, news_headlines):
             return parsed
 
         except Exception as e:
-            safe_exception_str = str(e).replace(GEMINI_API_KEY, "[REDACTED]")
-            print(f"Attempt {attempt + 1} for {symbol} failed: {safe_exception_str}")
+            safe_exception = str(e).replace(GEMINI_API_KEY, "[REDACTED]")
+            print(f"Attempt {attempt + 1} for {symbol} failed: {safe_exception}")
             if attempt < max_retries - 1:
                 time.sleep(4)
             else:
@@ -201,6 +195,7 @@ def main():
             price_change = current_price - previous_close
             price_change_percent = (price_change / previous_close) * 100
             
+            # Check accuracy against yesterday's prediction range
             accuracy_check_hit = None
             yesterdays_predicted_range_str = "N/A"
             if symbol in previous_predictions:
