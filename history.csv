@@ -242,3 +242,11 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2026-09-22,XOM,nan,nan,nan,Neutral,0.62,Macro/Fed,161.2,166.2,$161.20 - $166.30,False
 2026-09-22,SPY,nan,nan,nan,Neutral,0.65,Technical Momentum,756.5,766.5,$756.50 - $766.50,False
 2026-09-22,TSLA,nan,nan,nan,Neutral,0.65,Product/Technology,355.0,372.0,$358.00 - $371.50,False
+2026-09-22,AAPL,339.75,0.77,0.2271,Bullish,0.82,Technical Momentum,336.5,342.5,$332.00 - $341.50,True
+2026-09-22,NVDA,228.87,1.49,0.6553,Bullish,0.82,Technical Momentum,225.5,232.5,$216.50 - $227.50,False
+2026-09-22,MSFT,498.0,-3.61,-0.7197,Neutral,0.65,Technical Momentum,492.0,504.0,$488.50 - $501.50,True
+2026-09-22,JPM,340.0,-12.04,-3.4201,Bearish,0.75,Macro/Fed,334.5,343.5,$346.50 - $353.50,False
+2026-09-22,JNJ,269.19,-0.28,-0.1039,Neutral,0.65,Product/Technology,266.5,272.0,$266.50 - $273.20,True
+2026-09-22,XOM,158.71,0.41,0.259,Bearish,0.73,Macro/Fed,156.2,161.1,$161.20 - $166.20,False
+2026-09-22,SPY,773.38,-0.12,-0.0155,Bullish,0.75,Technical Momentum,769.5,777.0,$756.50 - $766.50,False
+2026-09-22,TSLA,378.9,3.6,0.9592,Bullish,0.78,Technical Momentum,372.5,385.5,$355.00 - $372.00,False
