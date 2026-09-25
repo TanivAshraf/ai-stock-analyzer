@@ -1,50 +1,31 @@
 {
-    "last_updated": "2026-09-24T00:07:24.678265+00:00",
+    "last_updated": "2026-09-25T00:10:15.107742+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "error": "Data or prediction pipeline failure for this session."
-        },
-        {
-            "symbol": "NVDA",
-            "sector": "Semiconductors",
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.68,
+            "confidence": 0.78,
             "primary_driver": "Technical Momentum",
-            "reasoning": "NVIDIA shows solid upside momentum, recovering from mid-September lows near $210 back to $228.87 with a healthy 14-day RSI of 55.5. Despite headline noise regarding AI revenue sustainability, persistent accumulation and cheap relative valuation multiples support continued upward price action.",
+            "reasoning": "AAPL exhibits strong technical momentum, rallying from $309 to near $340 over the past month while maintaining a healthy 14-day RSI of 59.7. Despite minor product news headwinds regarding Mac storage, persistent buying pressure and solid price action support continued upside.",
             "predicted_range": [
-                223.5,
-                234.0
+                333.5,
+                341.5
             ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$225.50 - $232.50",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "accuracy_check": null
+        },
+        {
+            "symbol": "NVDA",
+            "sector": "Semiconductors",
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "MSFT is consolidating near the $498 level with a balanced 14-day RSI of 50.7, indicating a neutral momentum phase. Market participants are weighing recent dividend hikes against ongoing AI capital expenditure concerns, likely keeping price action range-bound short term.",
-            "predicted_range": [
-                492.0,
-                504.0
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$492.00 - $504.00",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "JPM",
@@ -64,22 +45,7 @@
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.7,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "SPY demonstrates strong technical momentum following a sharp rebound from recent lows near $752 to around $773, backed by a healthy RSI reading of 58.2. With annualized volatility remaining low at 10.5% and a lack of disruptive macroeconomic news, market dynamics favor continued upward drift.",
-            "predicted_range": [
-                768.5,
-                778.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$769.50 - $777.00",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "TSLA",
@@ -87,16 +53,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.62,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "TSLA exhibits solid technical momentum with an RSI of 61.3 and price pushing toward the $379 level alongside broader mega-cap tech strength. However, emerging execution concerns regarding Austin robotaxi fleet scaling and China headwinds create offsetting pressure, suggesting near-term consolidation.",
+            "sentiment": "Bullish",
+            "confidence": 0.75,
+            "primary_driver": "Product/Technology",
+            "reasoning": "Tesla continues its upward momentum toward $380, supported by a balanced 14-day RSI of 52.4 that allows further room for upside without being overbought. Sustained positive catalysts around FSD execution and global market expansion in Vietnam reinforce bullish sentiment despite 44.1% annualized volatility.",
             "predicted_range": [
-                368.5,
-                385.0
+                372.5,
+                388.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$372.50 - $385.50",
+                "yesterdays_predicted_range": "$368.50 - $385.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
