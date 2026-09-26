@@ -1,51 +1,106 @@
 {
-    "last_updated": "2026-09-25T00:10:15.107742+00:00",
+    "last_updated": "2026-09-26T00:16:31.957280+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.78,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "AAPL exhibits strong technical momentum, rallying from $309 to near $340 over the past month while maintaining a healthy 14-day RSI of 59.7. Despite minor product news headwinds regarding Mac storage, persistent buying pressure and solid price action support continued upside.",
-            "predicted_range": [
-                333.5,
-                341.5
-            ],
-            "accuracy_check": null
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.62,
+            "primary_driver": "Macro/Fed",
+            "reasoning": "Nvidia is experiencing a mild pullback as a 43.3 RSI indicates neutral-to-weak momentum following consolidation below recent highs near $230. Headwinds from rising Treasury yields and broader market choppy price action are offsetting positive company-specific tailwinds, pointing toward continued near-term range-bound trading.",
+            "predicted_range": [
+                220.5,
+                227.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Microsoft is consolidating near the $498 mark with a neutral 14-day RSI of 48.6, reflecting balanced buying and selling pressures. Consistent shareholder return headlines provide a solid fundamental floor, suggesting continued range-bound price movement in the near term.",
+            "predicted_range": [
+                490.5,
+                504.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Bearish",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "JPMorgan Chase has experienced a sharp recent decline from $362 to $338.56 amid broader weakness in financial stocks, despite positive long-term capital return and partnership updates. With the 14-day RSI pushed deep into oversold territory at 25.4, downside momentum remains dominant, though near-term price stabilization is expected near current support.",
+            "predicted_range": [
+                333.5,
+                342.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.62,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "JNJ is consolidating in the $267-$271 range following a pullback from September highs near $278. An RSI of 36.5 suggests the stock is approaching oversold territory, supporting potential price stabilization near current technical levels despite revenue growth concerns regarding Stelara.",
+            "predicted_range": [
+                267.5,
+                272.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.65,
+            "primary_driver": "Macro/Fed",
+            "reasoning": "Despite recent downward pressure from slumping crude oil prices, XOM has shown resilience with a modest rebound toward $162 supported by a neutral RSI of 54.9. Optimism around a potential return to Venezuela provides a counterweight to broader commodity headwinds, holding the stock in a consolidation pattern.",
+            "predicted_range": [
+                159.5,
+                164.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.55,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "SPY has entered a period of consolidation around the $767 level after bouncing sharply from its mid-September low of $752.18. With a neutral 14-day RSI of 49.0 and a lack of strong market-moving catalysts in recent headline flow, price action is expected to remain range-bound in the near term.",
+            "predicted_range": [
+                762.0,
+                772.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
@@ -54,15 +109,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.75,
+            "confidence": 0.68,
             "primary_driver": "Product/Technology",
-            "reasoning": "Tesla continues its upward momentum toward $380, supported by a balanced 14-day RSI of 52.4 that allows further room for upside without being overbought. Sustained positive catalysts around FSD execution and global market expansion in Vietnam reinforce bullish sentiment despite 44.1% annualized volatility.",
+            "reasoning": "Tesla displays strong upward price momentum with the 14-day RSI lingering around overbought territory (70.2), bolstered by positive sentiment around FSD capabilities and international market expansion. While 43.5% annualized volatility signals potential short-term consolidation, the overall trend remains elevated near the $380 mark.",
             "predicted_range": [
-                372.5,
-                388.5
+                370.5,
+                387.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$368.50 - $385.00",
+                "yesterdays_predicted_range": "$372.50 - $388.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
