@@ -271,3 +271,11 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2026-09-29,XOM,nan,nan,nan,Bearish,0.65,Macro/Fed,157.5,162.5,$159.50 - $164.50,False
 2026-09-29,SPY,nan,nan,nan,Bullish,0.68,Technical Momentum,768.0,775.0,$762.00 - $772.50,False
 2026-09-29,TSLA,nan,nan,nan,Bullish,0.72,Product/Technology,365.0,382.0,$370.50 - $387.00,False
+2026-09-30,AAPL,nan,nan,nan,Neutral,0.68,Technical Momentum,334.5,342.0,$336.50 - $343.50,False
+2026-09-30,NVDA,nan,nan,nan,Bullish,0.82,Earnings/Financials,224.5,233.2,$221.50 - $229.50,False
+2026-09-30,MSFT,nan,nan,nan,Bullish,0.73,Product/Technology,503.5,515.5,$510.50 - $523.00,False
+2026-09-30,JPM,nan,nan,nan,Bearish,0.68,Technical Momentum,332.0,340.5,$338.50 - $347.50,False
+2026-09-30,JNJ,nan,nan,nan,Neutral,0.65,Technical Momentum,268.5,274.5,$268.80 - $273.60,False
+2026-09-30,XOM,nan,nan,nan,Neutral,0.65,Macro/Fed,159.8,164.5,$157.50 - $162.50,False
+2026-09-30,SPY,nan,nan,nan,Neutral,0.65,Macro/Fed,760.5,771.5,$768.00 - $775.00,False
+2026-09-30,TSLA,nan,nan,nan,Neutral,0.65,Earnings/Financials,348.5,366.5,$365.00 - $382.00,False
