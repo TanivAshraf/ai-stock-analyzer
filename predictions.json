@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-01T00:55:45.625368+00:00",
+    "last_updated": "2026-10-02T01:12:13.434728+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -7,16 +7,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
+            "sentiment": "Bullish",
             "confidence": 0.65,
             "primary_driver": "Product/Technology",
-            "reasoning": "Apple is undergoing a short-term pullback following a rally toward $341, with RSI stabilizing at a neutral 53.6 level. Headline concerns regarding iPhone hardware/software integration issues are balanced by underlying medium-term technical support around the $325\u2013$330 range.",
+            "reasoning": "Apple's neutral RSI of 51.0 indicates price action has reset comfortably around $333 following a brief pullback from recent highs near $341. Positive product news surrounding the upcoming iPhone Duo and strategic leadership operational updates provide key fundamental support for an upward trajectory.",
             "predicted_range": [
-                324.5,
-                334.5
+                327.5,
+                338.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$334.50 - $342.00",
+                "yesterdays_predicted_range": "$324.50 - $334.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -28,15 +28,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.74,
-            "primary_driver": "Earnings/Financials",
-            "reasoning": "Nvidia displays strong momentum with a healthy 14-day RSI of 62.5 while consolidating near recent highs around $227. Headline support from a massive $150B share repurchase plan and physical AI expansion outweighs cautious macro commentary.",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "NVDA exhibits resilient upward momentum with the RSI at 63.8 as price recovers back near the upper range around $228 after consolidating off $211. While Michael Burry's put buying and FTC regulatory probes present headline risks, sustained AI capital expenditure tailwinds favor continued technical strength.",
             "predicted_range": [
-                223.5,
-                230.5
+                224.5,
+                231.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$224.50 - $233.20",
+                "yesterdays_predicted_range": "$223.50 - $230.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -57,16 +57,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bullish",
+            "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Product/Technology",
-            "reasoning": "JNJ is consolidating steadily near the $267\u2013$272 zone with a neutral 14-day RSI of 54.5 and low 14.1% annualized volatility. Positive clinical data for IMAAVY and resilient dividend positioning support mild upward momentum despite ongoing market discussions around STELARA.",
+            "reasoning": "JNJ has pulled back toward key support near $265 with a neutral 14-day RSI of 47.3, reflecting short-term technical consolidation after a early September high. Positive clinical pipeline updates for IMAAVY help offset ongoing market discussions around STELARA's revenue drag, maintaining a balanced risk-reward profile.",
             "predicted_range": [
-                265.2,
-                271.0
+                262.5,
+                267.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$268.50 - $274.50",
+                "yesterdays_predicted_range": "$265.20 - $271.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -80,13 +80,13 @@
             "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Macro/Fed",
-            "reasoning": "Softening crude oil prices and a pullback from recent highs near $169 have placed downward pressure on XOM, reflecting broader macro headwinds across the energy sector. With the 14-day RSI sitting at a moderate 42.5 and price consolidating near $161, the stock is likely to trade within a bounded range pending clearer direction in oil fundamentals.",
+            "reasoning": "Exxon Mobil is consolidating near $162.75 with a neutral RSI of 43.9 as market enthusiasm over Middle East geopolitical risks is dampened by falling crude oil prices. Near-term price action remains constrained within a broad macro band as investors weigh potential long-term catalysts, such as a return to Venezuela, against immediate commodity volatility.",
             "predicted_range": [
-                158.5,
-                163.5
+                160.2,
+                165.1
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$159.80 - $164.50",
+                "yesterdays_predicted_range": "$158.50 - $163.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -98,15 +98,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Neutral",
-            "confidence": 0.65,
+            "confidence": 0.62,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY exhibits balanced technicals with an RSI of 57.4 and low annualized volatility of 10.8%. The index is consolidating near $764 following a minor retracement from recent $773 highs amid a quiet macro news tape.",
+            "reasoning": "SPY has recently retraced towards $762.63 after reaching local highs above $773, while a 14-day RSI of 50.2 signals a balanced, non-directional setup. In the absence of actionable macroeconomic headlines, trading is anticipated to stay range-bound amid subdued 10.7% annualized volatility.",
             "predicted_range": [
-                758.5,
-                769.5
+                757.5,
+                767.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$760.50 - $771.50",
+                "yesterdays_predicted_range": "$758.50 - $769.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -117,16 +117,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
+            "sentiment": "Bearish",
             "confidence": 0.65,
             "primary_driver": "Earnings/Financials",
-            "reasoning": "Tesla has pulled back from recent highs near $380 down to $352.84, with an RSI of 41.8 indicating weakening short-term momentum. However, trader anticipation surrounding upcoming Q3 delivery estimates in early October provides underlying support near key technical levels.",
+            "reasoning": "TSLA has experienced a sharp pullback from recent peaks near $380 down to test key support around $352, reinforced by a weak 14-day RSI of 41.9 indicating dominant selling pressure. With elevated annualized volatility of 40.1% and market anxiety mounting ahead of the Q3 delivery update, short-term price action favors continued downside consolidation.",
             "predicted_range": [
-                345.0,
-                362.0
+                346.5,
+                363.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$348.50 - $366.50",
+                "yesterdays_predicted_range": "$345.00 - $362.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
