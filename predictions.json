@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-02T01:12:13.434728+00:00",
+    "last_updated": "2026-10-03T00:49:47.837741+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -7,16 +7,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bullish",
+            "sentiment": "Neutral",
             "confidence": 0.65,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Apple's neutral RSI of 51.0 indicates price action has reset comfortably around $333 following a brief pullback from recent highs near $341. Positive product news surrounding the upcoming iPhone Duo and strategic leadership operational updates provide key fundamental support for an upward trajectory.",
+            "primary_driver": "Technical Momentum",
+            "reasoning": "AAPL is currently consolidating after reaching a recent peak near $341, with its 14-day RSI at a balanced 46.4 indicating neutral momentum. While long-term institutional backing from major shareholders provides downside support, mixed executive news and broader market digestion are keeping price action range-bound.",
             "predicted_range": [
-                327.5,
-                338.5
+                326.0,
+                335.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$324.50 - $334.50",
+                "yesterdays_predicted_range": "$327.50 - $338.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -28,15 +28,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.68,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "NVDA exhibits resilient upward momentum with the RSI at 63.8 as price recovers back near the upper range around $228 after consolidating off $211. While Michael Burry's put buying and FTC regulatory probes present headline risks, sustained AI capital expenditure tailwinds favor continued technical strength.",
+            "confidence": 0.75,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "NVIDIA's record $150 billion stock buyback authorization and strong institutional buying reinforce solid fundamental sentiment. However, a 14-day RSI of 81.3 highlights heavily overbought conditions, pointing to potential near-term price consolidation within an ongoing uptrend.",
             "predicted_range": [
-                224.5,
-                231.5
+                227.5,
+                234.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$223.50 - $230.50",
+                "yesterdays_predicted_range": "$224.50 - $231.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -44,7 +44,18 @@
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Bullish",
+            "confidence": 0.74,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "Microsoft is consolidating near $513 following headlines marking its strongest quarterly performance in decades and a rebounding software sector. With a healthy 14-day RSI of 55.1 and controlled volatility at 22.1%, technical indicators support continued upside momentum within recent trading channels.",
+            "predicted_range": [
+                507.5,
+                518.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JPM",
@@ -57,16 +68,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
-            "primary_driver": "Product/Technology",
-            "reasoning": "JNJ has pulled back toward key support near $265 with a neutral 14-day RSI of 47.3, reflecting short-term technical consolidation after a early September high. Positive clinical pipeline updates for IMAAVY help offset ongoing market discussions around STELARA's revenue drag, maintaining a balanced risk-reward profile.",
+            "sentiment": "Bearish",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "JNJ has suffered a steep sell-off on surging volume, pushing its 14-day RSI near oversold levels at 31.8. Although long-term pipeline updates remain positive, sharp short-term technical downside momentum is dominating price action.",
             "predicted_range": [
-                262.5,
-                267.5
+                254.5,
+                261.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$265.20 - $271.00",
+                "yesterdays_predicted_range": "$262.50 - $267.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -80,13 +91,13 @@
             "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Macro/Fed",
-            "reasoning": "Exxon Mobil is consolidating near $162.75 with a neutral RSI of 43.9 as market enthusiasm over Middle East geopolitical risks is dampened by falling crude oil prices. Near-term price action remains constrained within a broad macro band as investors weigh potential long-term catalysts, such as a return to Venezuela, against immediate commodity volatility.",
+            "reasoning": "XOM is consolidating near $163.82 with a neutral 14-day RSI of 47.6 following a pullback from September peak levels near $169. While potential expansion in Venezuela and geopolitical supply hedges provide underlying support, recent drops in crude oil prices present offsetting near-term headwinds.",
             "predicted_range": [
-                160.2,
-                165.1
+                161.2,
+                166.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$158.50 - $163.50",
+                "yesterdays_predicted_range": "$160.20 - $165.10",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -97,16 +108,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.62,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "SPY has recently retraced towards $762.63 after reaching local highs above $773, while a 14-day RSI of 50.2 signals a balanced, non-directional setup. In the absence of actionable macroeconomic headlines, trading is anticipated to stay range-bound amid subdued 10.7% annualized volatility.",
+            "sentiment": "Bullish",
+            "confidence": 0.65,
+            "primary_driver": "Macro/Fed",
+            "reasoning": "With a neutral 14-day RSI of 55.1 and annualized volatility remaining subdued at 10.0%, SPY is maintaining a stable consolidation pattern above key support levels near $760. Market sentiment is bolstered by macroeconomic support from cooling Treasury yields, providing potential upside momentum for the next trading session.",
             "predicted_range": [
-                757.5,
-                767.5
+                759.5,
+                768.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$758.50 - $769.50",
+                "yesterdays_predicted_range": "$757.50 - $767.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -117,16 +128,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bearish",
+            "sentiment": "Bullish",
             "confidence": 0.65,
-            "primary_driver": "Earnings/Financials",
-            "reasoning": "TSLA has experienced a sharp pullback from recent peaks near $380 down to test key support around $352, reinforced by a weak 14-day RSI of 41.9 indicating dominant selling pressure. With elevated annualized volatility of 40.1% and market anxiety mounting ahead of the Q3 delivery update, short-term price action favors continued downside consolidation.",
+            "primary_driver": "Product/Technology",
+            "reasoning": "Tesla is holding support near $354 with a neutral 14-day RSI of 45.9 following a pullback from September highs near $380. Strong European registration gains and anticipation around Q3 deliveries provide short-term tailwinds for a potential move higher.",
             "predicted_range": [
-                346.5,
-                363.5
+                348.0,
+                365.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$345.00 - $362.00",
+                "yesterdays_predicted_range": "$346.50 - $363.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
