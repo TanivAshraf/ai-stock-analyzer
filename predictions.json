@@ -1,50 +1,61 @@
 {
-    "last_updated": "2026-10-06T01:59:07.391980+00:00",
+    "last_updated": "2026-10-07T01:09:03.481001+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": 332.89,
-            "price_change": -0.8,
-            "price_change_percent": -0.24,
+            "current_price": 333.63,
+            "price_change": 0.74,
+            "price_change_percent": 0.22,
             "sentiment": "Bullish",
             "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "AAPL is currently consolidating right around its 20-day SMA ($332.54) with a neutral 14-day RSI of 51.9, reflecting a healthy pause in its broader uptrend above the 50-day SMA. Minor noise regarding carrier connectivity glitches on new hardware is balanced by sentiment surrounding Apple's consumer AI positioning, supporting price stability.",
+            "reasoning": "AAPL is consolidating around its 20-day SMA ($333.41) with a neutral RSI of 51.5, remaining safely above its 50-day SMA ($322.30) to keep the broader uptrend intact. Minor headlines regarding cellular connectivity glitches are outweighed by stable price consolidation and solid technical structure.",
             "predicted_range": [
                 330.5,
-                336.0
+                337.2
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$326.00 - $335.00",
-                "todays_actual_price": "$332.89",
+                "yesterdays_predicted_range": "$330.50 - $336.00",
+                "todays_actual_price": "$333.63",
                 "hit": true
             }
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": 238.9,
-            "price_change": 4.95,
-            "price_change_percent": 2.12,
+            "current_price": 239.24,
+            "price_change": 0.34,
+            "price_change_percent": 0.14,
             "sentiment": "Bullish",
-            "confidence": 0.72,
+            "confidence": 0.82,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Nvidia has demonstrated strong upward momentum reaching $238.90, supported by positive executive comments and broader Nasdaq market gains. However, an extreme 14-day RSI of 84.6 warns of heavily overbought technical conditions, pointing to high volatility and potential short-term consolidation near recent highs.",
+            "reasoning": "NVDA exhibits strong technical momentum, driving prices up to $239.24 alongside positive institutional headlines and solid volume. Although an elevated 14-day RSI of 84.0 signals overbought conditions, trading above both 20-day and 50-day SMAs supports further immediate upside.",
             "predicted_range": [
-                235.5,
-                243.2
+                236.5,
+                242.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$227.50 - $234.00",
-                "todays_actual_price": "$238.90",
-                "hit": false
+                "yesterdays_predicted_range": "$235.50 - $243.20",
+                "todays_actual_price": "$239.24",
+                "hit": true
             }
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 529.3,
+            "price_change": 4.12,
+            "price_change_percent": 0.78,
+            "sentiment": "Bullish",
+            "confidence": 0.82,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "MSFT exhibits strong upward technical momentum, reaching $529.30 bolstered by robust quarter performance and Azure AI expansion optimism. Although the 14-day RSI of 76.3 indicates overbought conditions, the clear Golden Cross setup and high volume suggest continued buying pressure before any major pullback.",
+            "predicted_range": [
+                524.5,
+                535.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JPM",
@@ -54,52 +65,59 @@
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": 252.93,
-            "price_change": -3.1,
-            "price_change_percent": -1.21,
-            "sentiment": "Bullish",
-            "confidence": 0.62,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Despite heavy recent selling bringing JNJ down to $252.93, a deeply oversold 14-day RSI of 22.4 indicates an imminent mean-reversion bounce opportunity. Positive clinical pipeline updates for ICOTYDE and IMAAVY offer fundamental backing to stem further aggressive downside.",
-            "predicted_range": [
-                250.5,
-                256.0
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$254.50 - $261.00",
-                "todays_actual_price": "$252.93",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": 164.0,
-            "price_change": -0.01,
-            "price_change_percent": -0.01,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
+            "current_price": 164.48,
+            "price_change": 0.48,
+            "price_change_percent": 0.29,
+            "sentiment": "Bullish",
+            "confidence": 0.76,
             "primary_driver": "Macro/Fed",
-            "reasoning": "XOM is consolidating near its 20-day SMA of $163.00 with a subdued 14-day RSI of 38.3, signaling mild selling pressure after retreating from recent September peaks. While volatile crude oil prices present near-term headwinds, underlying geopolitical supply risks and prospective expansion into Venezuela offer fundamental downside support.",
+            "reasoning": "XOM demonstrates solid technical structure with its 20-day SMA holding above the 50-day SMA and a neutral RSI of 53.4. Escalating geopolitical supply risks in the Middle East alongside potential expansion opportunities in Venezuela provide strong macro tailwinds.",
             "predicted_range": [
-                161.8,
+                162.8,
                 166.2
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$161.20 - $166.50",
-                "todays_actual_price": "$164.00",
+                "yesterdays_predicted_range": "$161.80 - $166.20",
+                "todays_actual_price": "$164.48",
                 "hit": true
             }
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 779.09,
+            "price_change": 4.26,
+            "price_change_percent": 0.55,
+            "sentiment": "Bullish",
+            "confidence": 0.78,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "SPY demonstrates strong upward momentum with four consecutive days of gains pushing the index to $779.09, reinforced by a bullish 20-day over 50-day SMA structure. Although the 14-day RSI of 73.6 flags overbought conditions, sustained buying pressure suggests potential for further near-term upside before any technical pullback.",
+            "predicted_range": [
+                775.5,
+                783.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 380.68,
+            "price_change": 1.95,
+            "price_change_percent": 0.51,
+            "sentiment": "Bullish",
+            "confidence": 0.78,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Tesla exhibits strong upward momentum as the stock ($380.68) trades well above both its 20-day ($366.72) and 50-day ($350.33) moving averages with a robust RSI of 63.7. Positive tailwinds from Q3 sales beats and encouraging comments regarding TSMC semiconductor talks further bolster buyer conviction.",
+            "predicted_range": [
+                374.5,
+                386.5
+            ],
+            "accuracy_check": null
         }
     ]
 }
