@@ -1,63 +1,48 @@
 {
-    "last_updated": "2026-10-08T01:26:51.683480+00:00",
+    "last_updated": "2026-10-09T01:34:37.709536+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
-            "primary_driver": "Product/Technology",
-            "reasoning": "AAPL is currently consolidating near the $333 level with a balanced 14-day RSI of 45.4 following a pull back from September highs. Incremental product news around macOS updates and potential October Mac events provides underlying support, maintaining tight price action within its annualized volatility bounds.",
-            "predicted_range": [
-                329.5,
-                337.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$330.50 - $337.20",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 230.48,
+            "price_change": -6.99,
+            "price_change_percent": -2.94,
             "sentiment": "Bullish",
-            "confidence": 0.78,
+            "confidence": 0.72,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Nvidia continues to demonstrate explosive technical momentum, pushing near record highs as institutional demand and ETF inflows remain strong. Although the 14-day RSI of 81.3 signals heavily overbought conditions that could trigger short-term consolidation, the overall trend favors continued upward trajectory.",
+            "reasoning": "Despite a minor pullback from recent highs near $239, NVDA maintains strong technical posture with its 20-day SMA trending above the 50-day SMA and a healthy RSI of 60.9. Strategic product wins, like Microsoft's new Nvidia-powered AI laptops, provide solid fundamental backing near key support levels.",
             "predicted_range": [
-                235.5,
-                243.0
+                226.5,
+                235.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$236.50 - $242.50",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$235.50 - $243.00",
+                "todays_actual_price": "$230.48",
                 "hit": false
             }
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 522.61,
+            "price_change": -7.15,
+            "price_change_percent": -1.35,
             "sentiment": "Bullish",
-            "confidence": 0.82,
+            "confidence": 0.78,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Microsoft demonstrates strong upward technical momentum, climbing steadily to $529.30 fueled by robust enterprise AI adoption narratives and analyst endorsements. Although the 14-day RSI of 73.7 signals slightly overbought conditions, sustained volume on up days supports further near-term price exploration.",
+            "reasoning": "Microsoft maintains strong bullish momentum supported by a positive 20-day/50-day SMA crossover and optimism surrounding upcoming AI product unveilings. Although the 14-day RSI of 70.5 signals slightly overbought conditions leading to a minor pullback to $522.60, the overall upward trend remains intact.",
             "predicted_range": [
-                523.5,
-                534.5
+                518.5,
+                527.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$524.50 - $535.00",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$523.50 - $534.50",
+                "todays_actual_price": "$522.61",
                 "hit": false
             }
         },
@@ -69,77 +54,81 @@
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 256.48,
+            "price_change": -1.97,
+            "price_change_percent": -0.76,
             "sentiment": "Bullish",
             "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Despite recent heavy selling pressure pushing the stock down from recent highs above $275, JNJ's 14-day RSI of 18.7 signals severely oversold conditions ripe for a mean-reversion bounce. Positive long-term clinical data for key pipeline drugs ICOTYDE and IMAAVY offers fundamental support to help stabilize price action around the $255 region.",
+            "reasoning": "JNJ's 14-day RSI of 27.6 indicates deeply oversold conditions following a sharp pullback from early September highs, setting up a prime candidate for a mean-reversion bounce. Strong pipeline clinical updates for ICOTYDE and IMAAVY provide solid fundamental backing to support price stabilization above recent support levels.",
             "predicted_range": [
-                252.5,
-                258.5
+                253.5,
+                260.0
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$252.50 - $258.50",
+                "todays_actual_price": "$256.48",
+                "hit": true
+            }
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 168.5,
+            "price_change": 4.45,
+            "price_change_percent": 2.71,
             "sentiment": "Bullish",
-            "confidence": 0.72,
+            "confidence": 0.82,
             "primary_driver": "Macro/Fed",
-            "reasoning": "XOM is consolidating strongly around the $164.50 level with a neutral 14-day RSI of 53.5, indicating a stable foundation after recovering from recent lows. Escalating geopolitical tensions affecting oil supply and potential market entry into Venezuela provide supportive macro tailwinds for further price appreciation.",
+            "reasoning": "XOM demonstrated strong upward momentum with a breakout to $168.50, supported by a positive 20-day over 50-day SMA alignment and a healthy RSI of 61.4. Heightened Middle East supply shock concerns and elevated geopolitical risk premiums continue to act as powerful macroeconomic tailwinds for the energy sector.",
             "predicted_range": [
-                162.5,
-                166.5
+                166.5,
+                171.25
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$162.80 - $166.20",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$162.50 - $166.50",
+                "todays_actual_price": "$168.50",
                 "hit": false
             }
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 773.93,
+            "price_change": -3.29,
+            "price_change_percent": -0.42,
             "sentiment": "Bullish",
-            "confidence": 0.78,
+            "confidence": 0.72,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY exhibits strong technical momentum with consecutive daily gains driving the index up to $779.09 while maintaining a bullish 14-day RSI of 69.0. In the absence of major macroeconomic news catalysts, low annualized volatility of 10.2% supports a continued upward drift within a controlled trading range.",
+            "reasoning": "SPY maintains a strong bullish posture with its 20-day SMA holding above the 50-day SMA and an RSI of 61.6 indicating positive momentum following a slight pullback from recent highs near $779. With news headlines offering no significant macroeconomic catalysts, low annualized volatility of 10.2% favors continued technical-driven trading within the established uptrend.",
             "predicted_range": [
-                774.5,
-                783.5
+                770.5,
+                777.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$775.50 - $783.00",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$774.50 - $783.50",
+                "todays_actual_price": "$773.93",
                 "hit": false
             }
         },
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 375.0,
+            "price_change": -2.81,
+            "price_change_percent": -0.74,
             "sentiment": "Bullish",
-            "confidence": 0.73,
+            "confidence": 0.72,
             "primary_driver": "Product/Technology",
-            "reasoning": "Tesla has demonstrated solid technical recovery from recent lows near $354, breaking past $380 with strong volume support and a moderate RSI of 59.7. Near-term upside momentum is further reinforced by positive sentiment surrounding Q3 delivery figures and anticipation of the Cybercab showcase at the Paris Motor Show.",
+            "reasoning": "TSLA trades above both its 20-day ($367.80) and 50-day ($353.27) moving averages with an RSI of 56.9, signaling sustained momentum following a strong rebound off $354. Anticipation surrounding the Cybercab robotaxi showcase at the Paris Motor Show provides a positive product catalyst for near-term price support.",
             "predicted_range": [
-                373.5,
-                388.5
+                368.5,
+                382.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$374.50 - $386.50",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$373.50 - $388.50",
+                "todays_actual_price": "$375.00",
+                "hit": true
             }
         }
     ]
