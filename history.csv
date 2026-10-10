@@ -321,3 +321,11 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2026-10-09,XOM,168.5,4.45,2.7126,Bullish,0.82,Macro/Fed,166.5,171.25,$162.50 - $166.50,False
 2026-10-09,SPY,773.93,-3.29,-0.4233,Bullish,0.72,Technical Momentum,770.5,777.5,$774.50 - $783.50,False
 2026-10-09,TSLA,375.0,-2.81,-0.7438,Bullish,0.72,Product/Technology,368.5,382.5,$373.50 - $388.50,True
+2026-10-10,AAPL,nan,nan,nan,Bullish,0.68,Technical Momentum,337.5,343.5,N/A,
+2026-10-10,NVDA,nan,nan,nan,Bearish,0.68,Earnings/Financials,224.5,233.5,$226.50 - $235.50,False
+2026-10-10,MSFT,nan,nan,nan,Bullish,0.68,Technical Momentum,515.5,529.5,$518.50 - $527.50,False
+2026-10-10,JPM,nan,nan,nan,Bullish,0.68,Technical Momentum,327.5,335.5,N/A,
+2026-10-10,JNJ,nan,nan,nan,Bullish,0.68,Technical Momentum,253.5,260.5,$253.50 - $260.00,False
+2026-10-10,XOM,nan,nan,nan,Bullish,0.75,Macro/Fed,166.0,172.0,$166.50 - $171.25,False
+2026-10-10,SPY,nan,nan,nan,Neutral,0.62,Technical Momentum,769.5,778.5,$770.50 - $777.50,False
+2026-10-10,TSLA,nan,nan,nan,Bullish,0.68,Earnings/Financials,368.5,383.0,$368.50 - $382.50,False
