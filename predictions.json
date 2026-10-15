@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-14T00:44:57.745575+00:00",
+    "last_updated": "2026-10-15T00:11:41.405821+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -9,18 +9,7 @@
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.68,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Nvidia is consolidating near the $226 level following a brief pullback from recent highs near $239, with an RSI of 51.3 reflecting a balanced technical setup. Despite emerging competitive news like Microsoft's Maia chip, sustained strong demand for AI hardware and strategic infrastructure expansions continue to support underlying buyer interest.",
-            "predicted_range": [
-                222.5,
-                230.5
-            ],
-            "accuracy_check": null
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "MSFT",
