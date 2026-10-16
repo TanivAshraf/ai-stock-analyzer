@@ -1,10 +1,21 @@
 {
-    "last_updated": "2026-10-15T00:11:41.405821+00:00",
+    "last_updated": "2026-10-15T23:58:16.401332+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 342.0,
+            "price_change": -0.96,
+            "price_change_percent": -0.28,
+            "sentiment": "Bullish",
+            "confidence": 0.82,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Apple continues its bullish momentum with the 20-day SMA maintaining a strong lead over the 50-day SMA following recent record high valuations. Positive tailwinds from newly unveiled smart home products and Siri AI updates reinforce upside potential while a moderate RSI of 51.1 leaves ample room for further growth.",
+            "predicted_range": [
+                339.5,
+                345.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "NVDA",
@@ -14,27 +25,82 @@
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 539.44,
+            "price_change": 5.75,
+            "price_change_percent": 1.08,
+            "sentiment": "Bullish",
+            "confidence": 0.82,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Microsoft demonstrates strong bullish momentum, trading well above its 20-day and 50-day moving averages with an RSI of 66.2 reflecting sustained buying pressure. Positive analyst sentiment from Barclays regarding software differentiation further supports near-term upside potential.",
+            "predicted_range": [
+                532.5,
+                545.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 335.53,
+            "price_change": 0.25,
+            "price_change_percent": 0.07,
+            "sentiment": "Bullish",
+            "confidence": 0.68,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "JPMorgan's upgraded full-year net interest income outlook provides fundamental support, stabilizing the stock near the $335 level following recent Q3 earnings reports. With the 14-day RSI holding near 40 and price reclaiming its 20-day SMA, technical conditions favor a continuation bounce towards resistance.",
+            "predicted_range": [
+                332.5,
+                339.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 253.28,
+            "price_change": -0.63,
+            "price_change_percent": -0.25,
+            "sentiment": "Bearish",
+            "confidence": 0.68,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "Despite beating Q3 earnings estimates and raising guidance, a high-volume sell-off was triggered by weakness in JNJ's medtech unit and geopolitical headwinds. The stock remains in a strong downtrend below both its 20-day and 50-day moving averages, though an RSI near oversold levels at 33.8 indicates potential for a short-term consolidation.",
+            "predicted_range": [
+                249.5,
+                257.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 174.68,
+            "price_change": -2.33,
+            "price_change_percent": -1.32,
+            "sentiment": "Bullish",
+            "confidence": 0.72,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "ExxonMobil exhibits strong upward momentum as short-term moving averages clear long-term trends amid geopolitical tailwinds in crude markets. Although an elevated RSI of 82.1 signals overbought conditions that could prompt minor intraday consolidation, overall bias remains upward.",
+            "predicted_range": [
+                172.5,
+                177.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 771.79,
+            "price_change": 2.19,
+            "price_change_percent": 0.28,
+            "sentiment": "Bullish",
+            "confidence": 0.62,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "SPY remains in a structural uptrend with the 20-day SMA ($771.11) staying above the 50-day SMA ($767.47) and RSI holding near a neutral 50.5 following a minor pullback. Low annualized volatility (9.6%) and a modest rebound off recent support around $769 suggest continued range-bound consolidation with a slight bullish bias.",
+            "predicted_range": [
+                767.0,
+                776.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
