@@ -1,106 +1,141 @@
 {
-    "last_updated": "2026-10-15T23:58:16.401332+00:00",
+    "last_updated": "2026-10-17T00:03:45.646829+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": 342.0,
-            "price_change": -0.96,
-            "price_change_percent": -0.28,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.82,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Apple continues its bullish momentum with the 20-day SMA maintaining a strong lead over the 50-day SMA following recent record high valuations. Positive tailwinds from newly unveiled smart home products and Siri AI updates reinforce upside potential while a moderate RSI of 51.1 leaves ample room for further growth.",
+            "confidence": 0.78,
+            "primary_driver": "Product/Technology",
+            "reasoning": "Apple exhibits strong upward momentum driven by key product catalysts, including reported regulatory progress on China AI approval and upcoming iPhone pre-orders pushing the stock to new milestone highs. With a balanced RSI of 54.7 and steady volume, the technical structure remains supportive despite broader tech sector macro volatility.",
             "predicted_range": [
                 339.5,
-                345.5
+                346.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$339.50 - $345.50",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Bearish",
+            "confidence": 0.78,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Nvidia has experienced a sharp downward trend from recent highs near $239 down to $217, driven by widespread industry concerns regarding AI infrastructure debt and financing squeezes. With a 14-day RSI approaching oversold territory at 35.5 and persistent high-volume selling, negative technical momentum continues to outweigh near-term support levels.",
+            "predicted_range": [
+                212.5,
+                220.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": 539.44,
-            "price_change": 5.75,
-            "price_change_percent": 1.08,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.82,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Microsoft demonstrates strong bullish momentum, trading well above its 20-day and 50-day moving averages with an RSI of 66.2 reflecting sustained buying pressure. Positive analyst sentiment from Barclays regarding software differentiation further supports near-term upside potential.",
+            "confidence": 0.78,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "Strong upward price momentum driven by multiple analyst price target hikes ahead of earnings highlights robust expectations for Azure and AI enterprise software adoption. While a 14-day RSI of 73.3 indicates slightly overbought conditions that could prompt minor intraday consolidation, strong institutional backing should keep the stock well-supported.",
             "predicted_range": [
-                532.5,
-                545.5
+                533.5,
+                547.0
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$532.50 - $545.50",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "current_price": 335.53,
-            "price_change": 0.25,
-            "price_change_percent": 0.07,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
             "sentiment": "Bullish",
             "confidence": 0.68,
             "primary_driver": "Earnings/Financials",
-            "reasoning": "JPMorgan's upgraded full-year net interest income outlook provides fundamental support, stabilizing the stock near the $335 level following recent Q3 earnings reports. With the 14-day RSI holding near 40 and price reclaiming its 20-day SMA, technical conditions favor a continuation bounce towards resistance.",
+            "reasoning": "JPMorgan's increased full-year Net Interest Income outlook provides solid fundamental backing despite missing Q3 revenue expectations. Technicals reflect stabilization around the $335 level with a neutral 51.3 RSI, positioning the stock for moderate upward momentum.",
             "predicted_range": [
-                332.5,
+                331.5,
                 339.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$332.50 - $339.50",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": 253.28,
-            "price_change": -0.63,
-            "price_change_percent": -0.25,
-            "sentiment": "Bearish",
-            "confidence": 0.68,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Neutral",
+            "confidence": 0.65,
             "primary_driver": "Earnings/Financials",
-            "reasoning": "Despite beating Q3 earnings estimates and raising guidance, a high-volume sell-off was triggered by weakness in JNJ's medtech unit and geopolitical headwinds. The stock remains in a strong downtrend below both its 20-day and 50-day moving averages, though an RSI near oversold levels at 33.8 indicates potential for a short-term consolidation.",
+            "reasoning": "Despite a Q3 earnings beat and raised 2026 guidance, JNJ saw a sharp sell-off driven by weakness in its medtech unit and geopolitical head winds. With RSI approaching oversold territory at 33.0 and price stabilizing near $253, the stock appears positioned for short-term consolidation.",
             "predicted_range": [
                 249.5,
                 257.0
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$249.50 - $257.00",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": 174.68,
-            "price_change": -2.33,
-            "price_change_percent": -1.32,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
             "sentiment": "Bullish",
             "confidence": 0.72,
             "primary_driver": "Technical Momentum",
-            "reasoning": "ExxonMobil exhibits strong upward momentum as short-term moving averages clear long-term trends amid geopolitical tailwinds in crude markets. Although an elevated RSI of 82.1 signals overbought conditions that could prompt minor intraday consolidation, overall bias remains upward.",
+            "reasoning": "ExxonMobil exhibits strong underlying momentum after reaching recent highs near $177, supported by bullish macro crude oil commentary and institutional inflows. However, with the 14-day RSI entering deeply overbought territory at 80.3, short-term consolidation or a mild pull-back within the current uptrend is expected.",
             "predicted_range": [
                 172.5,
-                177.5
+                177.2
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$172.50 - $177.50",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": 771.79,
-            "price_change": 2.19,
-            "price_change_percent": 0.28,
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.62,
+            "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY remains in a structural uptrend with the 20-day SMA ($771.11) staying above the 50-day SMA ($767.47) and RSI holding near a neutral 50.5 following a minor pullback. Low annualized volatility (9.6%) and a modest rebound off recent support around $769 suggest continued range-bound consolidation with a slight bullish bias.",
+            "reasoning": "SPY demonstrates constructive technical momentum with a moderate 14-day RSI of 57.6 and low annualized volatility of 9.6%. Recent price action reflects steady consolidation above the $770 level despite quiet macro headlines, supporting a continued mild upward trajectory.",
             "predicted_range": [
-                767.0,
+                768.0,
                 776.5
             ],
-            "accuracy_check": null
+            "accuracy_check": {
+                "yesterdays_predicted_range": "$767.00 - $776.50",
+                "todays_actual_price": "$nan",
+                "hit": false
+            }
         },
         {
             "symbol": "TSLA",
