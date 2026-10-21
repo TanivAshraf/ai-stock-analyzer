@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-10-20T00:49:37.359361+00:00",
+    "last_updated": "2026-10-21T00:14:34.627661+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -8,15 +8,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.82,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Apple continues to push near record highs driven by strong early demand for the iPhone Duo and monetization potential for Siri AI features ahead of its upcoming earnings report. Despite a slightly overbought RSI of 73.0, high trading volume and strong fundamental product momentum favor further upside.",
+            "confidence": 0.75,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Apple displays strong technical momentum, consolidating near recent highs above $342 with an RSI of 68.1 indicating firm buying pressure without extreme overbought stress. Accompanied by low annualized volatility at 16.0% and strong volume on advances, the stock remains well-positioned to test upside resistance.",
             "predicted_range": [
                 340.5,
-                346.5
+                345.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$339.50 - $346.50",
+                "yesterdays_predicted_range": "$340.50 - $346.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -28,15 +28,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bearish",
-            "confidence": 0.72,
+            "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "NVDA has experienced a sharp multi-session sell-off from $239 down to $214, pushing the 14-day RSI toward oversold territory at 34.3. High volume during down days and cautious news around macro bond yields and AI supply chain bottlenecks indicate continued downward pressure before finding support.",
+            "reasoning": "NVDA has experienced a sharp short-term pullback from its recent peak of $239.24 down to around $217.09, pushing the 14-day RSI to a weak 37.0. While underlying corporate partnerships remain positive, negative technical momentum suggests continued consolidation around lower support bounds in the immediate session.",
             "predicted_range": [
-                210.5,
-                217.0
+                213.5,
+                221.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$212.50 - $220.50",
+                "yesterdays_predicted_range": "$210.50 - $217.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -44,22 +44,7 @@
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.78,
-            "primary_driver": "Earnings/Financials",
-            "reasoning": "Strong momentum driven by price target hikes and anticipated Azure outperformance underpins a favorable setup despite recent CapEx scrutiny. With RSI holding at a healthy 63.4 and price retaining most of its rally gains above $525, technicals support continued upside potential.",
-            "predicted_range": [
-                522.5,
-                537.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$533.50 - $547.00",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "JPM",
@@ -68,15 +53,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.75,
-            "primary_driver": "Earnings/Financials",
-            "reasoning": "JPMorgan demonstrates robust price recovery towards $339.72 supported by an RSI of 62.6 indicating steady bullish momentum. Investor sentiment is reinforced by management raising its full-year Net Interest Income guidance despite recent Q3 top-line noise.",
+            "confidence": 0.72,
+            "primary_driver": "Product/Technology",
+            "reasoning": "JPMorgan's deployment of JPM Coin onto the Ethereum mainnet generates strong long-term institutional technology narrative support. Technical indicators reflect steady consolidation with an RSI of 57.9 and low 14.6% volatility, favoring a rebound from recent lower range bounds around $333.",
             "predicted_range": [
-                336.5,
-                343.8
+                329.5,
+                338.2
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$331.50 - $339.50",
+                "yesterdays_predicted_range": "$336.50 - $343.80",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -87,16 +72,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bullish",
+            "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Earnings/Financials",
-            "reasoning": "JNJ experienced a sharp post-earnings drop due to weakness in its medtech unit, despite beating Q3 estimates and raising full-year guidance. With the 14-day RSI at 38.6 nearing oversold territory and price action stabilizing near $255.56, the stock is positioned for a short-term relief rally.",
+            "reasoning": "Despite beating Q3 earnings and raising full-year guidance alongside encouraging Tremfya trial data, JNJ experienced selling pressure due to medtech segment weakness and legal notice headlines. The stock is now consolidating near $253.79 with a neutral-to-oversold 14-day RSI of 39.4, suggesting a near-term floor.",
             "predicted_range": [
-                251.5,
-                259.5
+                250.5,
+                257.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$249.50 - $257.00",
+                "yesterdays_predicted_range": "$251.50 - $259.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -104,7 +89,18 @@
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": NaN,
+            "price_change": NaN,
+            "price_change_percent": NaN,
+            "sentiment": "Bullish",
+            "confidence": 0.72,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "ExxonMobil continues to demonstrate strong upward momentum, driven by Brent crude trading near $110 and significant ETF accumulation. However, a heavily overbought RSI of 84.6 suggests the potential for minor short-term consolidation near 52-week highs.",
+            "predicted_range": [
+                176.2,
+                180.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "SPY",
@@ -115,13 +111,13 @@
             "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY has pulled back from recent highs near $779 down to $763.25 on elevated volume, pushing the 14-day RSI to a neutral 49.0. Extremely low 20-day volatility of 8.8% points toward continued consolidation near current levels in the near term.",
+            "reasoning": "SPY is consolidating around the $766 level following a slight pullback from recent highs near $779, supported by a neutral 14-day RSI of 53.9. Unusually low annualized volatility at 8.9% and a lack of market-moving news suggest continued range-bound trading in the near term.",
             "predicted_range": [
-                758.5,
-                768.5
+                762.5,
+                771.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$768.00 - $776.50",
+                "yesterdays_predicted_range": "$758.50 - $768.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -129,18 +125,7 @@
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bearish",
-            "confidence": 0.65,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Tesla experienced severe selling pressure with volume surging to over 61 million shares as price pulled back sharply from recent highs near $382. Despite speculative product headlines regarding the Roadster, neutral RSI momentum and pre-earnings positioning suggest continued downside testing.",
-            "predicted_range": [
-                347.5,
-                361.0
-            ],
-            "accuracy_check": null
+            "error": "Data or prediction pipeline failure for this session."
         }
     ]
 }

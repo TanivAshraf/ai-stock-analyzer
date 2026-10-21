@@ -350,3 +350,9 @@ date,symbol,actual_price,price_change,price_change_percent,ai_sentiment_for_tomo
 2026-10-20,JNJ,nan,nan,nan,Bullish,0.65,Earnings/Financials,251.5,259.5,$249.50 - $257.00,False
 2026-10-20,SPY,nan,nan,nan,Neutral,0.65,Technical Momentum,758.5,768.5,$768.00 - $776.50,False
 2026-10-20,TSLA,nan,nan,nan,Bearish,0.65,Technical Momentum,347.5,361.0,N/A,
+2026-10-21,AAPL,nan,nan,nan,Bullish,0.75,Technical Momentum,340.5,345.5,$340.50 - $346.50,False
+2026-10-21,NVDA,nan,nan,nan,Bearish,0.65,Technical Momentum,213.5,221.0,$210.50 - $217.00,False
+2026-10-21,JPM,nan,nan,nan,Bullish,0.72,Product/Technology,329.5,338.2,$336.50 - $343.80,False
+2026-10-21,JNJ,nan,nan,nan,Neutral,0.65,Earnings/Financials,250.5,257.5,$251.50 - $259.50,False
+2026-10-21,XOM,nan,nan,nan,Bullish,0.72,Technical Momentum,176.2,180.5,N/A,
+2026-10-21,SPY,nan,nan,nan,Neutral,0.65,Technical Momentum,762.5,771.0,$758.50 - $768.50,False
