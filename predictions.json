@@ -1,5 +1,5 @@
 {
-    "last_updated": "2026-11-04T01:45:44.390318+00:00",
+    "last_updated": "2026-11-05T01:54:24.652982+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
@@ -7,16 +7,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
+            "sentiment": "Bearish",
+            "confidence": 0.72,
             "primary_driver": "Earnings/Financials",
-            "reasoning": "Apple delivered a solid Q4 earnings beat driven by strong iPhone sales, but market reaction remains muted due to weak China revenue and margin pressure. Technical indicators show a neutral RSI of 44.4 following a recent pullback to $338.32, pointing toward near-term consolidation around key support levels.",
+            "reasoning": "Apple has experienced sharp downside momentum with heavy volume selling following its earnings release, pushing the 14-day RSI down to 39.3. Despite solid full-year fundamental performance, negative sentiment surrounding the earnings call and broader tech sector selling favor short-term weakness.",
             "predicted_range": [
-                335.0,
-                346.0
+                326.5,
+                336.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$334.50 - $342.50",
+                "yesterdays_predicted_range": "$335.00 - $346.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -28,15 +28,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bearish",
-            "confidence": 0.72,
+            "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "NVDA has experienced a steep multi-week decline from $239 to $202, driven by high volume distribution and a broader semiconductor sector sell-off. While the 14-day RSI approaching oversold territory at 30.8 suggests a potential relief bounce, dominant negative momentum favors continued near-term downside pressure.",
+            "reasoning": "NVDA has experienced persistent downward pressure from its October highs near $239 down to the $202\u2013$206 region, fueled by a broader semiconductor sell-off and China exposure concerns. Although a 14-day RSI of 39.6 suggests the stock is approaching oversold territory, current technical momentum remains decidedly weak.",
             "predicted_range": [
-                197.0,
-                206.0
+                200.5,
+                210.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$198.50 - $205.50",
+                "yesterdays_predicted_range": "$197.00 - $206.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -47,16 +47,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bearish",
-            "confidence": 0.65,
+            "sentiment": "Bullish",
+            "confidence": 0.62,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Heavy volume selling in recent sessions has driven MSFT down sharply toward $507, pushing the 14-day RSI down to 31.6. Growing Wall Street skepticism regarding hyperscaler AI capex returns continues to weigh on short-term sentiment.",
+            "reasoning": "MSFT demonstrated underlying support with a strong rebound off the $507 low back to $520.99, while a 14-day RSI of 38.5 indicates the stock is nearing oversold territory. Favorable institutional commentary framing MSFT as a preferred AI play further reinforces a near-term bullish recovery.",
             "predicted_range": [
-                498.0,
-                515.0
+                512.5,
+                531.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$501.00 - $515.00",
+                "yesterdays_predicted_range": "$498.00 - $515.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -67,16 +67,16 @@
             "current_price": NaN,
             "price_change": NaN,
             "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.68,
+            "sentiment": "Neutral",
+            "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "JPMorgan Chase displays constructive price action, climbing towards $340.58 supported by a healthy 14-day RSI of 56.5 and low 15.6% annualized volatility. Steady upward momentum alongside macro bank research insights suggests continued moderate upside potential in the near term.",
+            "reasoning": "JPMorgan Chase is consolidating near $338 with a neutral 14-day RSI of 52.8 and moderate annualized volatility of 15.8%. Recent financial headlines highlight institutional focus on macro risks and operational infrastructure, supporting a range-bound outlook for tomorrow's session.",
             "predicted_range": [
-                337.0,
-                344.5
+                334.0,
+                342.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$337.50 - $343.80",
+                "yesterdays_predicted_range": "$337.00 - $344.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -88,12 +88,12 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.75,
+            "confidence": 0.8,
             "primary_driver": "Product/Technology",
-            "reasoning": "Strong clinical trial results for JNJ's prostate cancer pipeline (JNJ-6143 and ERLEADA) provide robust fundamental catalysts for growth. While the 14-day RSI of 70.1 signals slightly overbought conditions, steady technical momentum following the recent low near $248 supports continued upside consolidation.",
+            "reasoning": "Strong clinical trial results for pipeline oncology treatments JNJ-6143 and ERLEADA provide significant positive catalysts for the stock's medium-term outlook. Despite a brief pullback to $266.17 from recent highs, constructive RSI momentum at 64.2 and solid institutional backing suggest a resilient bullish structure.",
             "predicted_range": [
-                267.5,
-                274.5
+                262.5,
+                271.5
             ],
             "accuracy_check": {
                 "yesterdays_predicted_range": "$267.50 - $274.50",
@@ -104,22 +104,7 @@
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Bullish",
-            "confidence": 0.75,
-            "primary_driver": "Earnings/Financials",
-            "reasoning": "Strong quarterly earnings beats driven by surging refining margins and geopolitical tailwinds support Exxon Mobil's fundamental strength. Despite a recent pullback from peak highs near $187.25, a neutral 53.9 RSI suggests healthy consolidation within an overarching uptrend.",
-            "predicted_range": [
-                175.5,
-                183.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$176.00 - $184.50",
-                "todays_actual_price": "$nan",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "SPY",
@@ -130,13 +115,13 @@
             "sentiment": "Bearish",
             "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY has experienced a sharp pullback from recent highs around $772 down to $752.10 on significantly elevated volume, driving the 14-day RSI down to 36.8. With headlines providing little actionable macro catalyst, near-term technical momentum remains skewed to the downside with potential for a temporary pause near oversold territory.",
+            "reasoning": "SPY exhibits sustained downward price momentum with a weak RSI of 36.8 following heavy distribution volume on recent pullbacks toward the $752 support area. Weakness in global macroeconomic indicators alongside recent technical deterioration reinforces a cautious short-term outlook.",
             "predicted_range": [
-                746.5,
-                756.5
+                748.5,
+                758.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$746.50 - $757.00",
+                "yesterdays_predicted_range": "$746.50 - $756.50",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
@@ -148,15 +133,15 @@
             "price_change": NaN,
             "price_change_percent": NaN,
             "sentiment": "Bullish",
-            "confidence": 0.75,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Tesla shows strong technical strength, holding above the $400 psychological level with an RSI of 67.4 indicating sustained bullish momentum. Optimism surrounding the Robotaxi expansion in Texas and Florida provides a key fundamental catalyst for continued short-term upside.",
+            "confidence": 0.73,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Tesla continues to display strong momentum near the $400 resistance zone, backed by high trading volumes and encouraging headlines regarding its Texas and Florida Robotaxi deployment. Although the 14-day RSI at 67.0 approaches overbought levels, elevated volatility and persistent buying pressure favor continued upside tests.",
             "predicted_range": [
-                395.0,
-                412.0
+                391.0,
+                407.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$395.00 - $412.50",
+                "yesterdays_predicted_range": "$395.00 - $412.00",
                 "todays_actual_price": "$nan",
                 "hit": false
             }
