@@ -1,164 +1,164 @@
 {
-    "last_updated": "2026-11-13T02:17:13.343091+00:00",
+    "last_updated": "2026-11-14T01:54:30.393479+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 356.27,
+            "price_change": 1.39,
+            "price_change_percent": 0.39,
             "sentiment": "Bullish",
             "confidence": 0.78,
             "primary_driver": "Technical Momentum",
-            "reasoning": "Apple demonstrates solid bullish momentum following recent all-time highs and positive analyst upgrades, supported by a healthy RSI of 55.3. Despite elevated volatility around 27.8%, strong buying pressure and upward trending price action signal continued near-term strength.",
+            "reasoning": "AAPL demonstrates solid technical momentum with its 20-day SMA ($345.91) trending above the 50-day SMA ($338.79) and a healthy 14-day RSI of 58.7 as price closes near recent highs at $356.27. Institutional ETF net buying and early performance leaks for next-generation M-series silicon provide additional tailwinds for continued upside.",
             "predicted_range": [
-                351.5,
-                359.5
+                352.0,
+                360.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$351.50 - $360.00",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$351.50 - $359.50",
+                "todays_actual_price": "$356.27",
+                "hit": true
             }
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 162.85,
+            "price_change": -3.34,
+            "price_change_percent": -2.01,
             "sentiment": "Bearish",
-            "confidence": 0.88,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Heavy institutional selling volume has driven NVDA into deeply oversold territory with a 14-day RSI of 26.8 amid extreme 51.6% volatility. Severe downward pressure is intensified by reported board turmoil regarding CEO Jensen Huang and potential client diversification away from NVDA chips.",
+            "confidence": 0.85,
+            "primary_driver": "Regulatory",
+            "reasoning": "Severe downward price action driven by news of CEO Jensen Huang's resignation amid an unfolding scandal has triggered heavy institutional selling. Although the 14-day RSI of 19.1 indicates deeply oversold conditions, high annualized volatility and negative momentum suggest further downside risk before establishing a firm bottom.",
             "predicted_range": [
-                163.5,
-                178.0
+                155.0,
+                169.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$168.00 - $181.50",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$163.50 - $178.00",
+                "todays_actual_price": "$162.85",
                 "hit": false
             }
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 523.88,
+            "price_change": 0.88,
+            "price_change_percent": 0.17,
             "sentiment": "Neutral",
             "confidence": 0.65,
             "primary_driver": "Product/Technology",
-            "reasoning": "MSFT exhibits neutral technical momentum with a 14-day RSI of 48.8 as price consolidates near $521 following recent AI-driven volatility. Ongoing Azure growth highlights are offset by broader tech sector choppiness and macro yield pressures, supporting a balanced short-term outlook.",
+            "reasoning": "MSFT is consolidating between its 50-day SMA ($519.00) and 20-day SMA ($529.39) with a neutral 14-day RSI of 46.9 following a sharp pullback from recent highs. Near-term operational headwinds from widespread Outlook and Teams outages are counterbalanced by structural AI partnerships and reported ETF accumulation.",
             "predicted_range": [
-                512.5,
-                532.5
+                516.5,
+                531.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$515.00 - $532.50",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$512.50 - $532.50",
+                "todays_actual_price": "$523.88",
+                "hit": true
             }
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.6,
+            "current_price": 346.19,
+            "price_change": 3.37,
+            "price_change_percent": 0.98,
+            "sentiment": "Bullish",
+            "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "JPMorgan demonstrates short-term technical stabilization around $343.39 with a moderate 14-day RSI of 59.0. However, upside remains capped due to persistent ETF net selling and potential regulatory headwinds regarding political scrutiny.",
+            "reasoning": "JPMorgan Chase demonstrates solid technical momentum, trading comfortably above its 20-day and 50-day moving averages at $346.19 with a healthy RSI of 59.1. Upward price action over consecutive sessions suggests buyers remain in control despite potential headlines regarding regulatory scrutiny.",
             "predicted_range": [
-                338.5,
-                347.5
+                342.5,
+                349.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$339.50 - $347.50",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$338.50 - $347.50",
+                "todays_actual_price": "$346.19",
+                "hit": true
             }
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 285.75,
+            "price_change": 2.23,
+            "price_change_percent": 0.79,
             "sentiment": "Bullish",
-            "confidence": 0.78,
+            "confidence": 0.85,
             "primary_driver": "Product/Technology",
-            "reasoning": "Strong positive clinical trial results for JNJ's pipeline drugs (JNJ-6143 and ERLEADA) in prostate cancer provide significant fundamental momentum. Despite a 14-day RSI of 68.0 approaching overbought territory, the steady upward trend from recent lows supports continued upside.",
+            "reasoning": "Strong technical momentum has pushed JNJ toward recent highs near $285.75, supported by a bullish 20-day/50-day SMA alignment and an RSI near 70. Positive clinical trial data for key prostate cancer therapies JNJ-6143 and ERLEADA provides significant fundamental tailwinds to sustain the uptrend.",
             "predicted_range": [
-                276.5,
-                285.0
+                283.0,
+                289.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$277.50 - $284.20",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$276.50 - $285.00",
+                "todays_actual_price": "$285.75",
                 "hit": false
             }
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 170.59,
+            "price_change": 0.81,
+            "price_change_percent": 0.48,
             "sentiment": "Bullish",
-            "confidence": 0.65,
+            "confidence": 0.68,
             "primary_driver": "Technical Momentum",
-            "reasoning": "XOM has reached oversold conditions with a 14-day RSI of 29.1 following a steep pull-back from recent highs near $187 down to $164. Recent price stabilization around $166 and strong energy sector macro backdrop signal high potential for a short-term tactical mean-reversion bounce.",
+            "reasoning": "XOM is mounting a mean-reversion bounce off its 50-day SMA support after rebounding from recent lows of $164.47, supported by an oversold 14-day RSI of 33.4. Fading selling pressure combined with favorable geopolitical and dividend income macro narratives suggests potential continuation toward the 20-day SMA.",
             "predicted_range": [
-                164.0,
-                169.5
+                168.0,
+                173.5
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$163.50 - $169.00",
-                "todays_actual_price": "$nan",
+                "yesterdays_predicted_range": "$164.00 - $169.50",
+                "todays_actual_price": "$170.59",
                 "hit": false
             }
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
-            "sentiment": "Neutral",
-            "confidence": 0.62,
+            "current_price": 754.37,
+            "price_change": -2.75,
+            "price_change_percent": -0.36,
+            "sentiment": "Bearish",
+            "confidence": 0.65,
             "primary_driver": "Technical Momentum",
-            "reasoning": "SPY has staged a modest rebound toward $759.81 after testing lower support near $733.00, with the 14-day RSI holding neutral at 49.9. Given an annualized volatility of 22.3% and a lack of market-moving catalysts in the recent headlines, near-term price action is expected to remain range-bound.",
+            "reasoning": "SPY remains under pressure as the price trades below both its 20-day ($759.02) and 50-day ($764.09) SMAs following a sharp sell-off in early November. With the 14-day RSI at 45.2 showing subdued momentum and no macro catalysts in the immediate headlines, technical resistance near the 20-day SMA is likely to cap near-term upside.",
             "predicted_range": [
-                748.5,
-                768.5
+                748.0,
+                760.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$750.00 - $767.00",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$748.50 - $768.50",
+                "todays_actual_price": "$754.37",
+                "hit": true
             }
         },
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "current_price": NaN,
-            "price_change": NaN,
-            "price_change_percent": NaN,
+            "current_price": 390.22,
+            "price_change": -7.23,
+            "price_change_percent": -1.82,
             "sentiment": "Bullish",
             "confidence": 0.68,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Tesla has demonstrated strong dip-buying resilience, surging back toward $390 after a sharp pullback to $343 earlier in the week. Supported by a healthy 56.0 RSI and broad market momentum in mega-cap equities, near-term price action favors continued upside test of recent highs.",
+            "primary_driver": "Product/Technology",
+            "reasoning": "Tesla has reclaimed its position above the 20-day SMA ($385.36), driven by speculative buying interest regarding reports of a SpaceX merger. While a neutral RSI (49.5) leaves room for further upside, elevated volatility (59.9%) points to wide trading swings around the $390 baseline.",
             "predicted_range": [
                 381.5,
-                403.0
+                401.0
             ],
             "accuracy_check": {
-                "yesterdays_predicted_range": "$382.50 - $401.00",
-                "todays_actual_price": "$nan",
-                "hit": false
+                "yesterdays_predicted_range": "$381.50 - $403.00",
+                "todays_actual_price": "$390.22",
+                "hit": true
             }
         }
     ]
