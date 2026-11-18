@@ -1,165 +1,45 @@
 {
-    "last_updated": "2026-11-17T04:15:20.486513+00:00",
+    "last_updated": "2026-11-18T03:14:16.893567+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "current_price": 352.78,
-            "price_change": -3.49,
-            "price_change_percent": -0.98,
-            "sentiment": "Bullish",
-            "confidence": 0.75,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "Apple recently achieved new all-time highs with its 20-day SMA ($346.42) holding firmly above the 50-day SMA ($339.45), signaling strong bullish market structure. A neutral 14-day RSI of 54.1 indicates ample room for further upside following a minor consolidation from recent peak levels.",
-            "predicted_range": [
-                348.5,
-                357.0
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$352.00 - $360.50",
-                "todays_actual_price": "$352.78",
-                "hit": true
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "current_price": 156.14,
-            "price_change": -6.71,
-            "price_change_percent": -4.12,
-            "sentiment": "Bearish",
-            "confidence": 0.78,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "NVDA is in a severe technical breakdown driven by massive capitulation volume and executive leadership turmoil surrounding Jensen Huang's potential return, pushing the 14-day RSI to a deeply oversold 16.0. Although extreme oversold conditions suggest a potential technical relief bounce ahead of earnings, heavy momentum to the downside and elevated 52.7% volatility favor continued price pressure.",
-            "predicted_range": [
-                149.5,
-                163.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$155.00 - $169.00",
-                "todays_actual_price": "$156.14",
-                "hit": true
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "current_price": 517.99,
-            "price_change": -5.89,
-            "price_change_percent": -1.12,
-            "sentiment": "Bearish",
-            "confidence": 0.65,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "MSFT has broken below its 50-day SMA ($519.36) following a sharp pullback from recent highs, exacerbated by cloud network outage headlines. With RSI at 45.4 and persistent selling volume, short-term technical momentum signals continued downside pressure toward key support levels.",
-            "predicted_range": [
-                508.0,
-                526.0
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$516.50 - $531.50",
-                "todays_actual_price": "$517.99",
-                "hit": true
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "current_price": 338.21,
-            "price_change": -7.98,
-            "price_change_percent": -2.31,
-            "sentiment": "Neutral",
-            "confidence": 0.62,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "JPMorgan pulled back below its converging 20-day ($339.28) and 50-day ($339.33) SMAs on elevated volume following a recent rejection at the $346 level. With a neutral 14-day RSI of 51.7 and minimal fundamental news catalysts, price action suggests short-term range-bound consolidation.",
-            "predicted_range": [
-                333.5,
-                343.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$342.50 - $349.50",
-                "todays_actual_price": "$338.21",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "current_price": 282.55,
-            "price_change": -3.2,
-            "price_change_percent": -1.12,
-            "sentiment": "Bullish",
-            "confidence": 0.82,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Strong clinical trial breakthroughs for JNJ's prostate cancer pipeline (JNJ-6143 and ERLEADA) provide significant fundamental tailwinds alongside a robust technical backdrop with 20-day SMA above 50-day SMA. With an RSI of 63.9 showing healthily elevated momentum, the stock is well-positioned to maintain its upward trajectory after minor near-term consolidation.",
-            "predicted_range": [
-                278.5,
-                286.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$283.00 - $289.00",
-                "todays_actual_price": "$282.55",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "current_price": 166.87,
-            "price_change": -2.65,
-            "price_change_percent": -1.56,
-            "sentiment": "Neutral",
-            "confidence": 0.63,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "XOM has experienced a sharp pullback from its late October highs near $186, driving the 14-day RSI down to 35.0 as price tests key support near the 50-day SMA ($168.48). While institutional selling and downward momentum press short-term sentiment, oversold technical conditions suggest the stock may stabilize around current levels.",
-            "predicted_range": [
-                164.2,
-                169.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$168.00 - $173.50",
-                "todays_actual_price": "$166.87",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "current_price": 739.95,
-            "price_change": -14.42,
-            "price_change_percent": -1.91,
-            "sentiment": "Bearish",
-            "confidence": 0.73,
-            "primary_driver": "Technical Momentum",
-            "reasoning": "SPY experienced a sharp sell-off down to $739.95 on heavy volume, reflecting negative price momentum as the 20-day SMA ($757.69) remains beneath the 50-day SMA ($763.52). With the 14-day RSI at 38.0 not yet oversold, the index is poised to test key support around the November low near $733.00.",
-            "predicted_range": [
-                731.5,
-                746.0
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$748.00 - $760.00",
-                "todays_actual_price": "$739.95",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         },
         {
             "symbol": "TSLA",
             "sector": "Consumer Disc.",
-            "current_price": 379.74,
-            "price_change": -10.48,
-            "price_change_percent": -2.69,
-            "sentiment": "Neutral",
-            "confidence": 0.65,
-            "primary_driver": "Product/Technology",
-            "reasoning": "Tesla is consolidating near its 50-day moving average ($375.25) following a three-day pullback, reflected by a neutral RSI of 40.3 and high annualized volatility. While positive buzz around 24/7 robotaxis and solar investments provides fundamental backing, short-term price action points to range-bound trading between key moving averages.",
-            "predicted_range": [
-                368.5,
-                391.5
-            ],
-            "accuracy_check": {
-                "yesterdays_predicted_range": "$381.50 - $401.00",
-                "todays_actual_price": "$379.74",
-                "hit": false
-            }
+            "error": "Data or prediction pipeline failure for this session."
         }
     ]
 }
