@@ -1,40 +1,117 @@
 {
-    "last_updated": "2026-11-18T03:14:16.893567+00:00",
+    "last_updated": "2026-11-19T02:53:03.369004+00:00",
     "predictions": [
         {
             "symbol": "AAPL",
             "sector": "Tech Hardware",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 352.45,
+            "price_change": 0.54,
+            "price_change_percent": 0.15,
+            "sentiment": "Bullish",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Apple continues to trade above both its 20-day ($347.49) and 50-day ($340.92) moving averages, with a neutral RSI of 52.9 leaving room for upside expansion. While short-term headlines highlight temporary service outages, the broader uptrend and upcoming product pipeline support a positive outlook.",
+            "predicted_range": [
+                348.5,
+                356.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "NVDA",
             "sector": "Semiconductors",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 150.96,
+            "price_change": -4.5,
+            "price_change_percent": -2.89,
+            "sentiment": "Bullish",
+            "confidence": 0.68,
+            "primary_driver": "Earnings/Financials",
+            "reasoning": "Despite a severe multi-session drop pushing the 14-day RSI to an extremely oversold 15.8, Nvidia reported massive Q3 revenue growth of 103% YoY and strong Q4 guidance. The extreme technical oversold condition combined with underlying fundamental strength favors a mean-reversion bounce.",
+            "predicted_range": [
+                147.5,
+                158.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "MSFT",
             "sector": "Enterprise Cloud",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 508.29,
+            "price_change": 2.05,
+            "price_change_percent": 0.4,
+            "sentiment": "Bearish",
+            "confidence": 0.65,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "Microsoft has broken below both its 20-day and 50-day moving averages following a sharp pullback from recent highs near $555. Weakening technical momentum alongside news of position cuts by institutional investors points to continued short-term downside pressure.",
+            "predicted_range": [
+                498.5,
+                516.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JPM",
             "sector": "Financials",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 324.11,
+            "price_change": -5.85,
+            "price_change_percent": -1.77,
+            "sentiment": "Bearish",
+            "confidence": 0.73,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "JPMorgan stock has suffered a sharp multi-day decline to $324.11, breaking significantly below both its 20-day ($338.46) and 50-day ($338.32) moving averages. Although an RSI of 37.7 indicates nearing oversold conditions, strong downside volume and headline friction around a software outage suggest continued downward volatility.",
+            "predicted_range": [
+                318.5,
+                329.0
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "JNJ",
             "sector": "Healthcare",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 272.7,
+            "price_change": -6.0,
+            "price_change_percent": -2.15,
+            "sentiment": "Bullish",
+            "confidence": 0.68,
+            "primary_driver": "Product/Technology",
+            "reasoning": "Despite a recent three-day pullback from $285.75 towards the 20-day SMA of $274.70, the broader trend remains supported above the 50-day SMA with a balanced RSI of 47.6. Encouraging clinical trial updates in oncology\u2014including high response rates for JNJ-6143 and risk reduction with ERLEADA\u2014provide strong fundamental backing for a potential bounce.",
+            "predicted_range": [
+                269.5,
+                276.8
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "XOM",
             "sector": "Energy",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 160.58,
+            "price_change": -6.63,
+            "price_change_percent": -3.97,
+            "sentiment": "Bearish",
+            "confidence": 0.68,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "XOM has suffered a severe technical breakdown below both its 20-day and 50-day moving averages on elevated volume, driven by persistent selling pressure. Although an RSI of 25.2 indicates deeply oversold conditions that could trigger a minor mean-reversion bounce, downside momentum currently dominates.",
+            "predicted_range": [
+                157.5,
+                163.8
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "SPY",
             "sector": "Market Index",
-            "error": "Data or prediction pipeline failure for this session."
+            "current_price": 730.2,
+            "price_change": -2.24,
+            "price_change_percent": -0.31,
+            "sentiment": "Bearish",
+            "confidence": 0.72,
+            "primary_driver": "Technical Momentum",
+            "reasoning": "SPY remains in a distinct short-term downtrend, underscored by the 20-day SMA remaining below the 50-day SMA and consecutive lower closes ending at $730.20. While a 14-day RSI of 34.7 indicates approaching oversold conditions, elevated volatility suggests sell pressure is likely to persist in the near term.",
+            "predicted_range": [
+                723.5,
+                736.5
+            ],
+            "accuracy_check": null
         },
         {
             "symbol": "TSLA",
